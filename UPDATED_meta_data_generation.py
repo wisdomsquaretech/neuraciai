@@ -108,7 +108,7 @@ def find_synonyms_in_text(synonyms_data, text):
     """
     # 1. Parse the synonym string into a clean list
     synonym_list = [s.strip() for s in synonyms_data.split(';')]
-    print(synonym_list)
+    print(">>>>>> Synonyms List",synonym_list)
 
     # 2. Create a mapping from a normalized synonym to its original form
     # This allows us to find a match and know which original term it came from.
@@ -127,120 +127,561 @@ def find_synonyms_in_text(synonyms_data, text):
         if re.search(pattern, normalized_abstract):
             found_synonyms.add(original_syn) # Add the original form to the results
 
-    #print(">>>>>Found Synonyms:",found_synonyms)
+    print(">>>>>Found Synonyms:",found_synonyms)
             
     return found_synonyms
 
 
 # ---- Function to extract metadata ----
 def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
+#     metadata_schema = {
+#         "type": "object",
+#         "properties": {
+#             "duration_days": {
+#                 "type": ["integer", "null"],
+#                 "description": "Convert weeks/months/years to days, null if not reported."
+#             },
+#             "sample_size": {
+#                 "type": ["integer", "null"],
+#                 "description": "Number of participants, null if not reported."
+#             },
+#             "sample_gender": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "string",
+#                     "enum": ["male", "female", "other", "unspecified"]
+
+#                 },
+#                 "description": "Participant genders included."
+#             },
+#             "species": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "string",
+#                     "enum": ["humans","animals","other"]
+#                 },
+#                     "description": "Species studied in the article.\
+#                                     Categories include:\
+#                                     - 'humans': Human participants of any age group (adults, children, adolescents).\
+#                                     - 'animals': animals such as rodents, dogs, cows, poultry, fish, insects, etc.\
+#                                     - 'other': Includes eveything else other than humans and animals."
+# },
+#             "population": {
+#                 "type": "string",
+#                 "description": "Short descriptive text of the study population."
+#             },
+#             "study_type": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "string",
+#                     "enum": [
+#                         "randomized controlled trial",
+#                         "non-randomized trial",
+#                         "open-label trial",
+#                         "single-blind trial",
+#                         "double-blind trial",
+#                         "triple-blind trial",
+#                         "crossover trial",
+#                         "parallel group trial",
+#                         "factorial design",
+#                         "cluster randomized trial",
+#                         "unspecified"
+#                     ]
+#                 },
+#                 "description": f"Type of study or trial design used in the research. \
+#                 The aticle type is {pubmed_type}, which provides context for interpreting the study type. \
+#                 Categories include: \
+#                 - 'randomized controlled trial (rct)': Participants are randomly assigned to groups (e.g., treatment vs placebo). \
+#                 - 'non-randomized trial': Groups assigned by investigator judgment or participant choice. \
+#                 - 'open-label trial': Both participants and researchers know which treatment is given. \
+#                 - 'single-blind trial': Either participants or investigators are unaware of treatment assignment. \
+#                 - 'double-blind trial': Both participants and investigators are unaware of treatment assignment. \
+#                 - 'triple-blind trial': Participants, investigators, and data analysts/statisticians are blinded. \
+#                 - 'crossover trial': Participants receive multiple interventions sequentially (each subject acts as their own control). \
+#                 - 'parallel group trial': Each group receives a different intervention simultaneously. \
+#                 - 'factorial design': Tests two or more interventions in combination (e.g., A, B, A+B). \
+#                 - 'cluster randomized trial': Groups (not individuals) are randomized (e.g., schools, clinics). \
+#                 - 'unspecified': Trial aticle type is not clinical or cannot be determined."
+#             },
+#             "focus": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "string",
+#                     "enum": ["primary", "secondary"]
+#                 },
+#                 "description": f"""Determine the focus of the study into one of the below category.
+#                     - primary: If the {synonym} is the main focus of the study. The study investigates its composition, effects, mechanisms, applications, or biological activity.
+#                     - secondary: If the {synonym} is mentioned along with the other ingredients but not main subject of the study. The study’s main conclusions or experiments are not about this {synonym}."""
+#             },
+#             "benefits": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "string"
+#                 },
+#                 "description": f"One concise line with rich context describing benefits of {synonym}. Use the same wordings mentioned in the article as much as possible without using acronyms or short forms. For example, It can help in improving sleep quality."
+#             },
+#             "synergies_interactions_positive": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "string"
+#                 },
+#                 "description": f"One concise line with rich context describing positive synergies or beneficial interactions of {synonym}  with other compounds, ingredients, or treatments. Use the same wordings mentioned in the article as much as possible without using acronyms or short forms. For example, 'It has enhanced calming effect when combined with lavender oil."
+#             },
+#             "synergies_interactions_negative": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "string"
+#                 },
+#                 "description": f"One concise line with rich context describing negative synergies interactions of {synonym} with other compounds, ingredients, or treatments, including reduced efficacy or harmful effects. Use the same wordings mentioned in the article as much as possible without using acronyms or short forms. For example, 'It may increase drowsiness when combined with alcohol."
+#             },
+#             "safety_side_effects": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "string"
+#                 },
+#                 "description": f"One concise line with rich context describing safety concerns, risks, toxicity, or side effects associated with the {synonym}. Use the same wordings mentioned in the article as much as possible without using acronyms or short forms. For example, It may cause mild stomach upset if taken in high doses."
+#             },
+#             "interventions": {
+#                     "type": "array",
+#                     "items": {
+#                         "type": "object",
+#                         "properties": {
+#                         "ingredient": {
+#                             "type": "string",
+#                             "description": "Name of the intervention substance (e.g.,Ashwagandha)."
+#                         },
+#                         "daily_dosage": {
+#                     "type": ["number", "null"],
+#                     "description": "Total daily dosage normalized according to the unit reported in the paper. Example: '600 mg twice daily' → 1200, '0.5 g/day' → 0.5 (if unit is g), '10 ml/day' → 10. If normalization is not possible, set null."
+#                 },
+#                 "units": {
+#                     "type": "string",
+#                     "description": "Unit of the dosage as reported in the paper. Examples: 'mg', 'g', 'ml', 'IU', 'mcg', 'microg/ml' etc."
+#                 },
+#                 "original_text": {
+#                     "type": "string",
+#                     "description": "Exact dosage text as reported in the paper."
+#                 }
+#                 },
+#                 "required": ["ingredient", "dosage_value", "units", "original_text"]
+
+#                     }
+#                     },
+#             "usage": {
+#                     "type": "array",
+#                     "items": {
+#                         "type": "string",
+#                         "enum": ["ingestion", "inhalation", "topical", "injection", "unspecified"]
+#                     },
+#                     "description": f"Route of administration of {synonym} or the treatment containing it. \
+#                 Look for mentions of how the substance was administered to participants in the methods or intervention description. All specific routes are grouped into one of five categories: \
+#                 - 'ingestion': Includes 'oral', 'capsule', 'pill', 'tablet', 'drink', 'solution', 'sublingual', 'chew', 'swallowed, or any route involving swallowing or absorption through the digestive or mucosal system. \
+#                 - 'inhalation': Includes inhaled', 'breathed', 'vapor', 'aromatherapy', 'smoke', 'diffused', 'olfactory exposure', 'nasal spray', 'nebulizer' or any route where the compound is inhaled through the respiratory system. \
+#                 - 'topical': Includes 'applied', 'ointment', 'cream', 'serum', 'oil', 'massage', 'on skin', 'on hair', 'rubbed', 'transdermal' or ocular/ophthalmic routes where the compound is applied externally or absorbed through the skin or eyes. \
+#                 - 'injection': Includes 'IV', 'intramuscular', 'subcutaneous', 'injected', 'parenteral', 'infused', 'intravenous' and all parenteral routes where the substance is administered via needle or infusion. \
+#                 - 'unspecified': When the route of administration is not mentioned explicitly.",
+#                 "minItems": 1,
+#                 },
+#             "conditions": {
+#                 "type": "array",
+#                     "items": {"type": "string"},
+#                 "description": "Medical conditions studied.",
+#                 "default": []
+#         },
+#             "biomarkers": {
+#                 "type": "array",
+#                     "items": {"type": "string"},
+#                 "description": "Physiological measures studied.",
+#                 "default": []
+#         },
+#             "functions": {
+#                 "type": "array",
+#                     "items": {"type": "string"},
+#             "description": "Functional domains studied (e.g., cognition, sleep).",
+#             "default": []
+#         },
+#             "purpose": {
+#                 "type": "string",
+#                 "description": "Short of description main purpose or aim of the study."
+#             },
+#             "conclusion":{
+#                 "type": "string",
+#                 "description": f"The main conclusion of the study focusing on {synonym}, summarized in one to two concise sentences with very rich context. If no explicit conclusion is provided, summarize the key finding instead. Do not include background, methods, or introduction details. Do not be generic; Use the same wordings mentioned in the article as much as possible without using acronyms or short forms"
+#             },
+#             "outcomes": {
+#                 "type": "array",
+#                 "items": {
+#                     "type": "object",
+#                     "properties": {
+#                         "name": {
+#                             "type": "string",
+#                             "description": "Canonicalized outcome name."
+#                         },
+#                         "domain": {
+#                             "type": "string",
+#                             "enum": ["condition", "function", "biomarker"],
+#                             "description": "Outcome classification domain."
+#                         },
+#                         "type": {
+#                             "type": "string",
+#                             "enum": ["primary", "secondary"],
+#                             "description": "Whether the outcome was primary or secondary."
+#                         },
+#                         "result": {
+#                             "type": "string",
+#                             "enum": ["improved", "worsened", "no_effect", "mixed", "not_reported"],
+#                             "description": "Reported result direction."
+#                         }
+#                     },
+#                     "description":"Must include all the values in conditions, biomarkers and functions with name, domain, type, result.",
+#                     "required": ["name", "domain", "type", "result"]
+#                 }
+#             },
+#             "diseases": {
+#                 "type": "array",
+#                 "items": {"type": "string"},
+#                 "description": "Standardized disease names."
+#             },
+#             "symptoms": {
+#                 "type": "array",
+#                 "items": {"type": "string"},
+#                 "description": "Standardized symptoms studied."
+#             },
+#             "keywords": {
+#                 "type": "array",
+#                 "items": {"type": "string"},
+#                 "description": "Keywords or important terms."
+#             },
+#             "location": {
+#                 "type": ["string", "null"],
+#                 "description": "Geographic country name of the study with normalization."
+#             },
+#             "mechanism": {
+#                 "type": "array",
+#                 "items": {"type": "string"},
+#                 "description": "Proposed biological mechanisms in short terms only."
+#             }
+#         },
+#         "required": ["interventions","outcomes", "conditions", "biomarkers", "functions","usage"]
+#     }
+
     metadata_schema = {
         "type": "object",
         "properties": {
             "duration_days": {
-                "type": ["integer", "null"],
-                "description": "Convert weeks/months/years to days, null if not reported."
-            },
+                    "oneOf": [
+                        {
+                        "type": "integer",
+                        "description": "Study or treatment duration expressed in days. Convert weeks/months/years to total days."
+                        },
+                        {
+                        "const": "not mentioned",
+                        "description": "Duration information was not reported or cannot be determined from the text."
+                        },
+                    ],
+                    "description": "Duration of the study or experimental intervention, normalized to days."
+                    },
             "sample_size": {
-                "type": ["integer", "null"],
-                "description": "Number of participants, null if not reported."
-            },
+                    "oneOf": [
+                        {
+                        "type": "integer",
+                        "description": "Number of participants included in the study."
+                        },
+                        {
+                        "const": "not mentioned",
+                        "description": "The sample size was not reported or cannot be determined from the study."
+                        },
+                        ],
+                    "description": "Total number of participants or samples in the study."
+                    },
             "sample_gender": {
                 "type": "array",
                 "items": {
-                    "type": "string",
-                    "enum": ["male", "female", "other", "unspecified"]
-
+                    "oneOf": [
+                    {
+                        "const": "male",
+                        "description": "Participant identified as male."
+                    },
+                    {
+                        "const": "female",
+                        "description": "Participant identified as female."
+                    },
+                    {
+                        "const": "other",
+                        "description": "Participant gender is not male or female (includes nonbinary or diverse identities)."
+                    },
+                    {
+                        "const": "not mentioned",
+                        "description": "Gender information was not provided or not stated in the source."
+                    }
+                    ]
                 },
-                "description": "Participant genders included."
-            },
+                "description": "Participant genders included in the study.",
+                "minItems": 1,
+                "uniqueItems": True,
+                "default": ["not mentioned"]
+                },
             "species": {
                 "type": "array",
                 "items": {
-                    "type": "string",
-                    "enum": ["humans","animals","other"]
+                "oneOf": [
+                {
+                "const": "humans",
+                "description": "Studies involving human participants, volunteers, or patients."
                 },
-                    "description": "Species studied in the article.\
-                                    Categories include:\
-                                    - 'humans': Human participants of any age group (adults, children, adolescents).\
-                                    - 'animals': animals such as rodents, dogs, cows, poultry, fish, insects, etc.\
-                                    - 'other': Includes eveything else other than humans and animals."
-},
+                {
+                "const": "animals",
+                "description": "Studies involving non-human animals such as mice, rats, rabbits, or other vertebrates/invertebrates."
+                },
+                {
+                "const": "cell lines",
+                "description": "Immortalized or continuously cultured cells derived from humans or animals, used for in vitro experiments."
+                },
+                {
+                "const": "primary cells",
+                "description": "Cells directly isolated from tissues of humans, animals, or plants, cultured briefly for experiments."
+                },
+                {
+                "const": "tissues",
+                "description": "Ex vivo samples of tissues from humans, animals, or plants used in experiments or analysis."
+                },
+                {
+                "const": "organoids",
+                "description": "3D miniaturized and simplified versions of organs grown in vitro from stem cells to model organ function or disease."
+                },
+                {
+                "const": "microorganisms",
+                "description": "Microscopic organisms including bacteria, fungi, protozoa, algae, or viruses."
+                },
+                {
+                "const": "plants",
+                "description": "Whole plants or plant parts (leaves, roots, seeds, etc.) used in experiments or studies."
+                },
+                {
+                "const": "computer models",
+                "description": "Computational or in silico models, simulations, or algorithmic experiments."
+                },
+                {
+                "const": "other",
+                "description": "Any experimental system or species that does not fall into the predefined categories."
+                },
+                {
+                "const": "not mentioned",
+                "description": "Species or biological system was not specified in the article."
+                }
+                ]
+                },
+                "description": "Species or biological systems studied in the article.",
+                "minItems": 1,
+                "uniqueItems": True,
+                "default": ["not mentioned"]
+                },
+            "experimental_model": {
+                "type": "array",
+                "items": {
+                    "oneOf": [
+                    {
+                        "const": "in vitro",
+                        "description": "Experiments conducted outside living organisms, typically in test tubes, culture plates, or petri dishes."
+                    },
+                    {
+                        "const": "ex vivo",
+                        "description": "Experiments conducted on tissues taken from living organisms but outside the organism."
+                    },
+                    {
+                        "const": "in vivo",
+                        "description": "Experiments conducted within living organisms (humans, animals, or plants)."
+                    },
+                    {
+                        "const": "in silico",
+                        "description": "Studies conducted using computer simulations, computational modeling, or digital analyses."
+                    },
+                    {
+                        "const": "other",
+                        "description": "Any experimental approach or environment not covered by the above categories like ex vivo, in vivo etc."
+                    },
+                    {
+                        "const": "not mentioned",
+                        "description": "The experimental model type was not reported."
+                    }
+                    ]
+                },
+                "description": "Type(s) of experimental models used in the study.",
+                "minItems": 1,
+                "uniqueItems": True,
+                "default": ["not mentioned"]
+                },
             "population": {
-                "type": "string",
-                "description": "Short descriptive text of the study population."
-            },
+                "oneOf": [
+                    {
+                    "type": "string",
+                    "description": "Short descriptive text of the study population, including condition/diagnosis and any defining traits or subgroups (e.g., early-treatment vs therapeutic-treatment), but excluding participant numbers, age, or sex unless reported as defining characteristics."
+                    },
+                ],
+                "description": "Text description of the study population.",
+                },
             "study_type": {
                 "type": "array",
                 "items": {
-                    "type": "string",
-                    "enum": [
-                        "randomized controlled trial",
-                        "non-randomized trial",
-                        "open-label trial",
-                        "single-blind trial",
-                        "double-blind trial",
-                        "triple-blind trial",
-                        "crossover trial",
-                        "parallel group trial",
-                        "factorial design",
-                        "cluster randomized trial",
-                        "unspecified"
+                    "oneOf": [
+                    {
+                        "const": "randomized controlled trial",
+                        "description": "Participants are randomly assigned to different intervention or control groups to minimize bias and allow direct comparison of outcomes. Synonyms: RCT, placebo-controlled, controlled trial, multicenter randomized."
+                    },
+                    {
+                        "const": "non-randomized trial",
+                        "description": "Participants are assigned to groups without randomization, based on investigator judgment or predefined criteria. Synonyms: non-randomized, nonrandomised, investigator assigned."
+                    },
+                    {
+                        "const": "open-label trial",
+                        "description": "Both participants and investigators know which intervention is being administered. Synonyms: open-label, open trial, unblinded."
+                    },
+                    {
+                        "const": "single-blind trial",
+                        "description": "Either participants or investigators (usually participants) are unaware of which intervention has been assigned. Synonyms: single-blind, single-masked."
+                    },
+                    {
+                        "const": "double-blind trial",
+                        "description": "Both participants and investigators are unaware of treatment assignments to minimize bias. Synonyms: double-blind, double-masked, placebo-controlled double-blind."
+                    },
+                    {
+                        "const": "triple-blind trial",
+                        "description": "Participants, investigators, and data analysts/statisticians are all blinded to treatment assignments. Synonyms: triple-blind, triple-masked."
+                    },
+                    {
+                        "const": "crossover trial",
+                        "description": "Each participant receives multiple interventions in sequence, acting as their own control. Synonyms: crossover design, cross-over, cross over study."
+                    },
+                    {
+                        "const": "parallel group trial",
+                        "description": "Participants are assigned to one intervention group and remain there; groups are compared at the end. Synonyms: parallel group, parallel-arm, parallel design, parallel assignment."
+                    },
+                    {
+                        "const": "factorial design",
+                        "description": "Two or more interventions are tested simultaneously to evaluate individual and combined effects. Synonyms: factorial trial, 2x2 design, multifactorial."
+                    },
+                    {
+                        "const": "cluster randomized trial",
+                        "description": "Groups or clusters are randomized instead of individuals. Synonyms: cluster randomized, group randomized, cluster trial, community randomized."
+                    },
+                    {
+                        "const": "adaptive trial",
+                        "description": "Trial design allows planned modifications based on interim analyses without undermining validity. Synonyms: adaptive design, adaptive randomization, adaptive study."
+                    },
+                    {
+                        "const": "pragmatic clinical trial",
+                        "description": "Designed to evaluate interventions in routine clinical practice, emphasizing real-world effectiveness. Synonyms: pragmatic trial, effectiveness trial, practical clinical trial."
+                    },
+                    {
+                        "const": "other",
+                        "description": "Trial design cannot be classified into any of the predefined types such as 'randomized controlled trial', 'single-blind trial', 'double-blind trial', etc."
+                    },
+                    {
+                        "const": "not mentioned",
+                        "description": "Study type was not reported from the article."
+                    }
                     ]
                 },
-                "description": f"Type of study or trial design used in the research. \
-                The aticle type is {pubmed_type}, which provides context for interpreting the study type. \
-                Categories include: \
-                - 'randomized controlled trial (rct)': Participants are randomly assigned to groups (e.g., treatment vs placebo). \
-                - 'non-randomized trial': Groups assigned by investigator judgment or participant choice. \
-                - 'open-label trial': Both participants and researchers know which treatment is given. \
-                - 'single-blind trial': Either participants or investigators are unaware of treatment assignment. \
-                - 'double-blind trial': Both participants and investigators are unaware of treatment assignment. \
-                - 'triple-blind trial': Participants, investigators, and data analysts/statisticians are blinded. \
-                - 'crossover trial': Participants receive multiple interventions sequentially (each subject acts as their own control). \
-                - 'parallel group trial': Each group receives a different intervention simultaneously. \
-                - 'factorial design': Tests two or more interventions in combination (e.g., A, B, A+B). \
-                - 'cluster randomized trial': Groups (not individuals) are randomized (e.g., schools, clinics). \
-                - 'unspecified': Trial aticle type is not clinical or cannot be determined."
-            },
-            "focus": {
-                "type": "array",
-                "items": {
-                    "type": "string",
-                    "enum": ["primary", "secondary"]
+                "description": f"Type(s) of study or trial design used in the research. Given that article type is {pubmed_type}",
+                "minItems": 1,
+                "uniqueItems": True,
+                "default": ["not mentioned"]
                 },
-                "description": f"""Determine the focus of the study into one of the below category.
-                    - primary: If the {synonym} is the main focus of the study. The study investigates its composition, effects, mechanisms, applications, or biological activity.
-                    - secondary: If the {synonym} is mentioned along with the other ingredients but not main subject of the study. The study’s main conclusions or experiments are not about this {synonym}."""
+            "focus": {
+            "type": "array",
+            "items": {
+                "oneOf": [
+                {
+                    "const": "primary",
+                    "description": f"The {synonym} is the **main focus** of the study. The study is primarily designed to investigate this {synonym}’s composition, structure, biological activity, health effects, therapeutic applications, dosage, or safety. It typically appears as the main intervention, central subject of analysis, or key variable in study objectives and conclusions."
+                },
+                {
+                    "const": "secondary",
+                    "description": f"The {synonym} is mentioned but not the main subject of the study. This includes situations where the {synonym} is part of a multi-ingredient formula, appears only in background context or literature references, is used as a comparator or control, or the study’s main conclusions concern something else."
+                },
+                ]
+            },
+            "description": "Determines the focus of the study for the ingredient(s).",
+            "minItems": 1,
+            "uniqueItems": True,
             },
             "benefits": {
-                "type": "array",
-                "items": {
-                    "type": "string"
+            "type": "array",
+            "items": {
+                "oneOf": [
+                {
+                    "type": "string",
+                    "description": f"A concise functional or clinical benefit of the {synonym} (1-3 words), extracted directly from the study. Examples: 'blood pressure reduction', 'anti-inflammatory effect', 'improved memory'."
                 },
-                "description": f"One concise line with rich context describing benefits of {synonym}. Use the same wordings mentioned in the article as much as possible without using acronyms or short forms. For example, It can help in improving sleep quality."
+                {
+                    "const": "not mentioned",
+                    "description": f"No functional or clinical benefits of the {synonym} were reported or could be extracted from the study."
+                }
+                ]
             },
-            "synergies_interactions_positive": {
-                "type": "array",
-                "items": {
-                    "type": "string"
+            "description": "Functional or clinical benefits of the ingredient reported in the study. Return only measurable outcomes or effects; do not include qualitative descriptors like 'safe' or 'promising'.",
+            "minItems": 1,
+            "uniqueItems": True,
+            "default": ["not mentioned"]
+            },
+
+          "synergies_interactions_positive": {
+            "type": "array",
+            "items": {
+                "oneOf": [
+                {
+                    "type": "string",
+                    "description": f"A concise statement describing a positive synergy, beneficial interaction, or enhanced effect of the {synonym} with other compounds, ingredients, or treatments. Use wording from the study; avoid acronyms or short forms. Only include functional or therapeutic effects, not general qualitative descriptors unless they describe measurable outcomes. Example: 'Enhanced calming effect when combined with lavender oil.'"
                 },
-                "description": f"One concise line with rich context describing positive synergies or beneficial interactions of {synonym}  with other compounds, ingredients, or treatments. Use the same wordings mentioned in the article as much as possible without using acronyms or short forms. For example, 'It has enhanced calming effect when combined with lavender oil."
+                {
+                    "const": "not mentioned",
+                    "description": f"No positive synergies or beneficial interactions of {synonym} were reported or could be determined from the study."
+                }
+                ]
+            },
+            "description": "List of positive synergies or beneficial interactions involving the ingredient.",
+            "minItems": 1,
+            "uniqueItems": True,
+            "default": ["not mentioned"]
             },
             "synergies_interactions_negative": {
                 "type": "array",
                 "items": {
-                    "type": "string"
+                    "oneOf": [
+                    {
+                        "type": "string",
+                        "description": f"A concise statement describing a negative interaction, reduced efficacy, or adverse effect of the {synonym} with other compounds, ingredients, or treatments. Use wording from the study; avoid acronyms or short forms. Only include measurable functional or clinical outcomes, not general qualitative descriptors unless tied to a functional outcome. Example: 'Co-administration with certain antidepressants increased risk of insomnia.'"
+                    },
+                    {
+                        "const": "not mentioned",
+                        "description": f"No negative interactions or adverse effects of {synonym} were reported or could be determined from the study."
+                    }
+                    ]
                 },
-                "description": f"One concise line with rich context describing negative synergies interactions of {synonym} with other compounds, ingredients, or treatments, including reduced efficacy or harmful effects. Use the same wordings mentioned in the article as much as possible without using acronyms or short forms. For example, 'It may increase drowsiness when combined with alcohol."
-            },
+                "description": "List of negative synergies, adverse interactions, or reduced effects involving the ingredient.",
+                "minItems": 1,
+                "uniqueItems": True,
+                "default": ["not mentioned"]
+                },
             "safety_side_effects": {
                 "type": "array",
                 "items": {
-                    "type": "string"
+                    "oneOf": [
+                    {
+                        "type": "string",
+                        "description": f"A concise functional or clinical adverse effect caused by the {synonym}, either alone or in combination with other compounds or treatments. Examples: 'nausea', 'liver toxicity', 'headache'. Only include measurable negative outcomes, not general descriptors like 'safe' or 'well-tolerated'."
+                    },
+                    {
+                        "const": "not mentioned",
+                        "description": f"No adverse effects of {synonym} were reported or could be determined from the study."
+                    }
+                    ]
                 },
-                "description": f"One concise line with rich context describing safety concerns, risks, toxicity, or side effects associated with the {synonym}. Use the same wordings mentioned in the article as much as possible without using acronyms or short forms. For example, It may cause mild stomach upset if taken in high doses."
-            },
+                "description": "Functional or clinical adverse effects of the ingredient reported in the study.",
+                "minItems": 1,
+                "uniqueItems": True,
+                "default": ["not mentioned"]
+                },
             "interventions": {
                     "type": "array",
                     "items": {
@@ -251,62 +692,84 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                             "description": "Name of the intervention substance (e.g.,Ashwagandha)."
                         },
                         "daily_dosage": {
-                    "type": ["number", "null"],
-                    "description": "Total daily dosage normalized according to the unit reported in the paper. Example: '600 mg twice daily' → 1200, '0.5 g/day' → 0.5 (if unit is g), '10 ml/day' → 10. If normalization is not possible, set null."
-                },
-                "units": {
-                    "type": "string",
-                    "description": "Unit of the dosage as reported in the paper. Examples: 'mg', 'g', 'ml', 'IU', 'mcg', 'microg/ml' etc."
-                },
-                "original_text": {
-                    "type": "string",
-                    "description": "Exact dosage text as reported in the paper."
-                }
+                        "type": ["number", "null"],
+                        "description": "Total daily dosage normalized according to the unit reported in the paper. Example: '600 mg twice daily' → 1200, '0.5 g/day' → 0.5 (if unit is g), '10 ml/day' → 10. If normalization is not possible, set null."
+                         },
+                        "units": {
+                            "type": "string",
+                            "description": "Unit of the dosage as reported in the paper. Examples: 'mg', 'g', 'ml', 'IU', 'mcg', 'microg/ml' etc."
+                        },
+                        "original_text": {
+                            "type": "string",
+                            "description": "Exact dosage text as reported in the paper."
+                        }
                 },
                 "required": ["ingredient", "dosage_value", "units", "original_text"]
 
                     }
                     },
-            "usage": {
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "enum": ["ingestion", "inhalation", "topical", "injection", "unspecified"]
+               "usage": {
+                "type": "array",
+                "items": {
+                    "oneOf": [
+                    {
+                        "const": "ingestion",
+                        "description": "Oral, sublingual, buccal, rectal, vaginal, oral-transmucosal, or any route involving swallowing or absorption through the digestive or mucosal system."
                     },
-                    "description": f"Route of administration of {synonym} or the treatment containing it. \
-                Look for mentions of how the substance was administered to participants in the methods or intervention description. All specific routes are grouped into one of five categories: \
-                - 'ingestion': Includes 'oral', 'capsule', 'pill', 'tablet', 'drink', 'solution', 'sublingual', 'chew', 'swallowed, or any route involving swallowing or absorption through the digestive or mucosal system. \
-                - 'inhalation': Includes inhaled', 'breathed', 'vapor', 'aromatherapy', 'smoke', 'diffused', 'olfactory exposure', 'nasal spray', 'nebulizer' or any route where the compound is inhaled through the respiratory system. \
-                - 'topical': Includes 'applied', 'ointment', 'cream', 'serum', 'oil', 'massage', 'on skin', 'on hair', 'rubbed', 'transdermal' or ocular/ophthalmic routes where the compound is applied externally or absorbed through the skin or eyes. \
-                - 'injection': Includes 'IV', 'intramuscular', 'subcutaneous', 'injected', 'parenteral', 'infused', 'intravenous' and all parenteral routes where the substance is administered via needle or infusion. \
-                - 'unspecified': When the route of administration is not mentioned explicitly.",
+                    {
+                        "const": "inhalation",
+                        "description": "Aromatherapy, vapor, aerosol, nasal spray, nebulizer, or any route where the compound is inhaled through the respiratory system."
+                    },
+                    {
+                        "const": "topical",
+                        "description": "Dermal application (cream, serum, oil), transdermal patches, or ocular/ophthalmic routes where the compound is applied externally or absorbed through the skin or eyes."
+                    },
+                    {
+                        "const": "injection",
+                        "description": "All parenteral routes (intravenous, intramuscular, subcutaneous, etc.) where the substance is administered via needle or infusion."
+                    },
+                    {
+                        "const": "other",
+                        "description": "Route of administration does not fall into the predefined categories."
+                    },
+                    {
+                        "const": "not mentioned",
+                        "description": "The route of administration was not reported or could not be determined from the study."
+                    }
+                    ]
+                },
+                "description": f"Route(s) of administration of the {synonym} or treatment.",
                 "minItems": 1,
+                "uniqueItems": True,
+                "default": ["not mentioned"]
                 },
             "conditions": {
                 "type": "array",
                     "items": {"type": "string"},
-                "description": "Medical conditions studied.",
-                "default": []
+                "description": "Medical conditions, diseases, or health statuses that are the focus of the study population. Include all conditions explicitly mentioned in the title, abstract, or methods section that the study is investigating. If multiple conditions are included, list each one separately.",
+                "default": [] 
         },
             "biomarkers": {
                 "type": "array",
                     "items": {"type": "string"},
-                "description": "Physiological measures studied.",
+                "description": "Physiological, biochemical, or molecular measures that are studied or reported in the trial. Include all relevant markers explicitly mentioned in the title, abstract, or methods section. Examples include blood pressure, heart rate, hormone levels, inflammatory markers, or neurochemical measures.",
                 "default": []
         },
             "functions": {
                 "type": "array",
                     "items": {"type": "string"},
-            "description": "Functional domains studied (e.g., cognition, sleep).",
+            "description": "Functional or behavioral domains that are studied or assessed in the trial. Include all domains explicitly mentioned in the title, abstract, or methods section, such as cognition, sleep, mood, memory, attention, pain, or motor function. Return concise keywords for each domain.",
             "default": []
         },
             "purpose": {
                 "type": "string",
-                "description": "Short of description main purpose or aim of the study."
+                "description": "A concise statement describing the main objective, aim, or purpose of the study, as explicitly reported in the title, abstract, or introduction. Do not infer outcomes or results; focus only on the study’s stated intent."
+
             },
             "conclusion":{
                 "type": "string",
-                "description": f"The main conclusion of the study focusing on {synonym}, summarized in one to two concise sentences with very rich context. If no explicit conclusion is provided, summarize the key finding instead. Do not include background, methods, or introduction details. Do not be generic; Use the same wordings mentioned in the article as much as possible without using acronyms or short forms"
+                "description": f"""The **main conclusion** or key finding of the study specifically related to the {synonym}, summarized in one to two concise sentences with rich context. If no explicit conclusion is provided, extract the most important result from the results section. Do not include background, methods, or introductory details. Avoid generic statements; use wording directly from the article whenever possible, without acronyms or short forms."""
+
             },
             "outcomes": {
                 "type": "array",
@@ -364,9 +827,6 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
         },
         "required": ["interventions","outcomes", "conditions", "biomarkers", "functions","usage"]
     }
-
-    
-
     if focus_status:
         metadata_schema["properties"]["focus"] = {
                                             "type": "string",
@@ -446,19 +906,19 @@ def process_pmids(root_names, search_terms, synonyms, pmids, pubmed_types,output
 
         try:
             paper = fetch_extract_and_abstract(pmid)
-            print(pmid)
+            #print(pmid)
             # checking for no abstracts
             if paper['abstract'].strip():
                 print("Synonyms",synonym)
                 text = paper["title"] + paper["abstract"]
                 # Set focus_status to TRUE for No Match Abstracts
                 match = find_synonyms_in_text(synonym, text)
-                focus_status = (match == {} or match == {''})
-
+                focus_status = (match == {} or match == {''} or match == set())
                 print(">>>>>>>>>>Focus",focus_status)
                 metadata_json = extract_metadata(synonym, paper["title"], paper["abstract"],pubmed_type,focus_status)
                 result = {"root_name": root_name, "search_term": search_term,"synonyms" : synonym, "PMID": pmid, "pubmed_type": pubmed_type, "metadata": metadata_json}
             else:
+                print("No abstract:",pmid)
                 continue
         except Exception as e:
             result = {"root_name": root_name, "search_term": search_term, "synonyms" : synonym, "PMID": pmid, "pubmed_type": pubmed_type,"Error": str(e)}
