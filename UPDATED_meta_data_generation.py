@@ -24,6 +24,7 @@ def fetch_extract_and_abstract(pmid):
     handle.close()
 
     article = records["PubmedArticle"][0]["MedlineCitation"]["Article"]
+    medline_citation = records["PubmedArticle"][0]["MedlineCitation"]
 
     # Title
     title = article.get("ArticleTitle", "")
@@ -33,9 +34,15 @@ def fetch_extract_and_abstract(pmid):
     if "Abstract" in article:
         abstract_parts = article["Abstract"].get("AbstractText", [])
         abstract_text = " ".join(str(p) for p in abstract_parts)
+    
+    keywords = []
+    if "KeywordList" in medline_citation:
+        for keyword_list in medline_citation["KeywordList"]:
+            for kw in keyword_list:
+                keywords.append(str(kw))
 
     if abstract_text:
-        return {"pmid": pmid, "title": title, "abstract": abstract_text}
+        return {"pmid": pmid, "title": title, "abstract": abstract_text, "keywords":keywords}
 
     # --- Fallback: use PMC full text as "abstract" ---
     def _strip_ns(root):
@@ -78,7 +85,7 @@ def fetch_extract_and_abstract(pmid):
             return {"pmid": pmid, "title": title, "abstract": full_text}
 
         # Fallback: whole doc text if body missing
-        return {"pmid": pmid, "title": title, "abstract": _get_text(root)}
+        return {"pmid": pmid, "title": title, "abstract": _get_text(root), "keywords":keywords}
 
     except Exception:
         # If anything fails, just return what we have
@@ -910,7 +917,8 @@ def process_pmids(root_names, search_terms, synonyms, pmids, pubmed_types,output
             # checking for no abstracts
             if paper['abstract'].strip():
                 print("Synonyms",synonym)
-                text = paper["title"] + paper["abstract"]
+                text = paper["title"] + paper["abstract"] + " Keywords: "+",".join(paper["keywords"])
+                #print(text)
                 # Set focus_status to TRUE for No Match Abstracts
                 match = find_synonyms_in_text(synonym, text)
                 focus_status = (match == {} or match == {''} or match == set())
