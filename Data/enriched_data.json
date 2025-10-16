@@ -1,0 +1,496 @@
+[
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "Cedrus",
+      "Cedar wood",
+      "Cedar-wood"
+    ],
+    "PMID": 10473175,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "microorganisms",
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "plants used in folk medicine for gastric ailments including peptic ulcers",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "anti-helicobacter pylori activity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cedrus libani",
+          "daily_dosage": null,
+          "units": "",
+          "original_text": "cones of cedrus libani"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "peptic ulcers"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to study the anti-helicobacter pylori effect of extracts and fractions from seven turkish plants used in folk medicine for gastric ailments.",
+      "conclusion": "results showed that all except one extract from six of these plants showed activity against the microorganism with mics between 1.95 and 250 microg/ml, with s. junceum being the only inactive species.",
+      "outcomes": [
+        {
+          "name": "peptic ulcers",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "peptic ulcer"
+      ],
+      "symptoms": [],
+      "keywords": [],
+      "location": null,
+      "mechanism": [],
+      "published_year": 1999,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10473175/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "Cedrus",
+      "Cedar wood",
+      "Cedar-wood"
+    ],
+    "PMID": 11524119,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 137,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "gymnosperms from 14 families",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "fatty acid composition",
+        "chloroplastic lipids",
+        "digalactosyldiacylglycerol",
+        "monogalactosyldiacylglycerol"
+      ],
+      "functions": [],
+      "purpose": "to determine the fatty acid composition of photosynthetic tissues from gymnosperms and analyze their taxonomic relationships.",
+      "conclusion": "a clear-cut separation of the genera abies, larix, and cedrus from the other pinaceae was evidenced through multivariate analyses of leaf fatty acid composition.",
+      "outcomes": [
+        {
+          "name": "fatty acid composition",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not_reported"
+        },
+        {
+          "name": "chloroplastic lipids",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not_reported"
+        },
+        {
+          "name": "digalactosyldiacylglycerol",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not_reported"
+        },
+        {
+          "name": "monogalactosyldiacylglycerol",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not_reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [],
+      "location": null,
+      "mechanism": [],
+      "published_year": 2001,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11524119/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "Cedrus",
+      "Cedar wood",
+      "Cedar-wood"
+    ],
+    "PMID": 11876259,
+    "pubmed_type": "Review, Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "abietoid seed fatty acid compositions of the genera abies, cedrus, hesperopeuce, keteleeria, pseudolarix, and tsuga",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "delta5-olefinic acids",
+        "taxoleic acid",
+        "pinolenic acid",
+        "coniferonic acid",
+        "keteleeronic acid",
+        "sciadonic acid",
+        "14-methyl hexadecanoic acid"
+      ],
+      "functions": [],
+      "purpose": "to review the seed fatty acid compositions of abietoids and make preliminary inferences on the taxonomy of pinaceae",
+      "conclusion": "the study suggests that tsuga spp. and hesperopeuce mertensiana should be separated from the abietoid group based on their seed fatty acid compositions, proposing a new 'tsugoid' subfamily.",
+      "outcomes": [
+        {
+          "name": "delta5-olefinic acids",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not_reported"
+        },
+        {
+          "name": "taxoleic acid",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not_reported"
+        },
+        {
+          "name": "pinolenic acid",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not_reported"
+        },
+        {
+          "name": "coniferonic acid",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not_reported"
+        },
+        {
+          "name": "keteleeronic acid",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not_reported"
+        },
+        {
+          "name": "sciadonic acid",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not_reported"
+        },
+        {
+          "name": "14-methyl hexadecanoic acid",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not_reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [],
+      "location": null,
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11876259/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "Cedrus",
+      "Cedar wood",
+      "Cedar-wood"
+    ],
+    "PMID": 11876600,
+    "pubmed_type": "Clinical Trial, Controlled Clinical Trial",
+    "metadata": {
+      "duration_days": 730,
+      "sample_size": 23,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "patients with japanese cedar pollinosis",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cs-560",
+          "daily_dosage": null,
+          "units": "",
+          "original_text": "cs-560"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "japanese cedar pollinosis"
+      ],
+      "biomarkers": [
+        "il-4",
+        "il-5",
+        "il-13",
+        "ifn-gamma"
+      ],
+      "functions": [
+        "cytokine production"
+      ],
+      "purpose": "to evaluate the effect of japanese cedar-specific immunotherapy on cytokine production in peripheral blood mononuclear cells.",
+      "conclusion": "specific immunotherapy for japanese cedar pollinosis using cs-560 clearly modified cytokine expression by peripheral blood mononuclear cells.",
+      "outcomes": [
+        {
+          "name": "japanese cedar pollinosis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "il-4",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "il-5",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "il-13",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "ifn-gamma",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "no_effect"
+        },
+        {
+          "name": "cytokine production",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "allergic rhinitis"
+      ],
+      "symptoms": [],
+      "keywords": [],
+      "location": "japan",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11876600/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "Cedrus",
+      "Cedar wood",
+      "Cedar-wood"
+    ],
+    "PMID": 11896972,
+    "pubmed_type": "Case Reports",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 3,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "dogs with recurrent pruritic dermatitis during japanese cedar pollination season",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "atopic dermatitis"
+      ],
+      "biomarkers": [
+        "ige specific to cry j 1",
+        "ige specific to cry j 2"
+      ],
+      "functions": [
+        "immune response"
+      ],
+      "purpose": "to investigate the sensitivity of dogs to japanese cedar pollen allergen and its role in seasonal atopic dermatitis",
+      "conclusion": "cry j 1 was identified as the major allergen recognized by ige and lymphocytes, leading to type i hypersensitivity to japanese cedar pollen allergen in atopic dogs.",
+      "outcomes": [
+        {
+          "name": "atopic dermatitis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "ige specific to cry j 1",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "ige specific to cry j 2",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "no_effect"
+        },
+        {
+          "name": "immune response",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "atopic dermatitis"
+      ],
+      "symptoms": [
+        "pruritic dermatitis"
+      ],
+      "keywords": [],
+      "location": "japan",
+      "mechanism": [
+        "type i hypersensitivity"
+      ],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11896972/"
+    }
+  }
+]
