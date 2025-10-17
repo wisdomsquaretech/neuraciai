@@ -1,4 +1,4 @@
-import os
+aaimport os
 import json
 from tqdm import tqdm
 from Bio import Entrez
@@ -594,7 +594,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
             "keywords": {
             "type": "array",
             "items": {"type": "string"},
-            "description": "RAG-optimized keywords extracted from the PubMed abstract, capturing the main biomedical concepts, diseases, genes, proteins, or processes. These keywords are designed to improve semantic retrieval, context-aware search, and accurate document linking in retrieval-augmented generation workflows. If no keywords are provided, infer 5–10 keywords from the title and abstract.",
+            "description": "RAG-optimized keywords extracted from the PubMed abstract, capturing the main biomedical concepts, diseases, genes, proteins, or processes. These keywords are designed to improve semantic retrieval, context-aware search, and accurate document linking in retrieval-augmented generation workflows. If no keywords are provided, infer 5–10 concise scientific/medical terms from the title and abstract (e.g., diseases, biomarkers, pathways, interventions), and exclude generic words or misspellings.",
             "minItems": 5,
             },
             "location": {
