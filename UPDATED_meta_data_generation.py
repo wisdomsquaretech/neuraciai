@@ -155,8 +155,10 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                         "const": "not mentioned",
                         "description": "Duration information was not reported or cannot be determined from the text."
                         },
+
                     ],
-                    "description": "Duration of the study or experimental intervention, normalized to days."
+                    "description": "Duration of the study or experimental intervention, normalized to days.",
+                    "default":["not mentioned"]
                     },
             "sample_size": {
                     "oneOf": [
@@ -169,7 +171,8 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                         "description": "The sample size was not reported or cannot be determined from the study."
                         },
                         ],
-                    "description": "Total number of participants or samples in the study."
+                    "description": "Total number of participants or samples in the study.",
+                    "default":["not mentioned"]
                     },
             "sample_gender": {
                 "type": "array",
@@ -296,6 +299,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                     },
                 ],
                 "description": "Text description of the study population.",
+                "default":"not mentioned"
                 },
             "study_type": {
                 "type": "array",
@@ -376,6 +380,10 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                     "const": "secondary",
                     "description": f"The {synonym} is mentioned but not the main subject of the study. This includes situations where the {synonym} is part of a multi-ingredient formula, appears only in background context or literature references, is used as a comparator or control, or the study’s main conclusions concern something else."
                 },
+                {
+                    "const": "other",
+                    "description": f"The {synonym} is mentioned as text but not in the context of ingredients being studied.(eg. {synonym} as in author name, instutiion name or locations.)"
+                }
                 ]
             },
             "description": "Determines the focus of the study for the ingredient(s).",
@@ -469,8 +477,8 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                             "description": "Name of the intervention substance (e.g.,Ashwagandha)."
                         },
                         "daily_dosage": {
-                        "type": ["number", "null"],
-                        "description": "Total daily dosage normalized according to the unit reported in the paper. Example: '600 mg twice daily' → 1200, '0.5 g/day' → 0.5 (if unit is g), '10 ml/day' → 10. If normalization is not possible, set null."
+                        "type": "number",
+                        "description": "Total daily dosage normalized according to the unit reported in the paper. Example: '600 mg twice daily' → 1200, '0.5 g/day' → 0.5 (if unit is g), '10 ml/day' → 10. If normalization is not possible leave it empty."
                          },
                         "units": {
                             "type": "string",
@@ -540,12 +548,14 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
         },
             "purpose": {
                 "type": "string",
-                "description": "A concise statement describing the main objective, aim, or purpose of the study, as explicitly reported in the title, abstract, or introduction. Do not infer outcomes or results; focus only on the study’s stated intent."
+                "description": "A concise statement describing the main objective, aim, or purpose of the study, as explicitly reported in the title, abstract, or introduction. Do not infer outcomes or results; focus only on the study’s stated intent.",
+                "default":"not mentioned"
 
             },
             "conclusion":{
                 "type": "string",
-                "description": f"""The **main conclusion** or key finding of the study specifically related to the {synonym}, summarized in one to two concise sentences with rich context. If no explicit conclusion is provided, extract the most important result from the results section. Do not include background, methods, or introductory details. Avoid generic statements; use wording directly from the article whenever possible, without acronyms or short forms."""
+                "description": f"""The **main conclusion** or key finding of the study specifically related to the {synonym}, summarized in one to two concise sentences with rich context. If no explicit conclusion is provided, extract the most important result from the results section. Do not include background, methods, or introductory details. Avoid generic statements; use wording directly from the article whenever possible, without acronyms or short forms.""",
+                "default":"not mentioned"
 
             },
             "outcomes": {
@@ -569,7 +579,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                         },
                         "result": {
                             "type": "string",
-                            "enum": ["improved", "worsened", "no_effect", "mixed", "not_reported"],
+                            "enum": ["improved", "worsened", "no effect", "mixed", "not reported"],
                             "description": "Reported result direction."
                         }
                     },
@@ -580,12 +590,14 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
             "diseases": {
                 "type": "array",
                 "items": {"type": "string"},
-                "description": "Standardized disease names."
+                "description": "Standardized disease names.",
+                "default":[]
             },
             "symptoms": {
                 "type": "array",
                 "items": {"type": "string"},
-                "description": "Standardized symptoms studied."
+                "description": "Standardized symptoms studied.",
+                "default":[]
             },
             "keywords": {
             "type": "array",
@@ -594,13 +606,15 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
             "minItems": 5,
             },
             "location": {
-                "type": ["string", "null"],
-                "description": "Geographic country name of the study with normalization."
+                "type": "string",
+                "description": "Geographic country name of the study with normalization.",
+                "default":["not mentioned"]
             },
             "mechanism": {
                 "type": "array",
                 "items": {"type": "string"},
-                "description": "Proposed biological mechanisms in short terms only."
+                "description": "Proposed biological mechanisms in short terms only.",
+                "default":["not mentioned"]
             }
         },
         "required": ["interventions","outcomes", "conditions", "biomarkers", "functions","usage"]
