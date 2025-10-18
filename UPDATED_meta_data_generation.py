@@ -295,7 +295,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                 "oneOf": [
                     {
                     "type": "string",
-                    "description": "Short descriptive text of the study population, including condition/diagnosis and any defining traits or subgroups (e.g., early-treatment vs therapeutic-treatment), but excluding participant numbers, age, or sex unless reported as defining characteristics."
+                    "description": "Short descriptive text of the study population, including condition/diagnosis and any defining traits or subgroups (e.g., early-treatment vs therapeutic-treatment, patients with advanced-stage cancer etc.). Include any pre-existing clinical features here. Exclude participant numbers, age, or sex unless reported as defining characteristics."
                     },
                 ],
                 "description": "Text description of the study population.",
@@ -454,7 +454,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                     "oneOf": [
                     {
                         "type": "string",
-                        "description": f"A concise functional or clinical adverse effect caused by the {synonym}, either alone or in combination with other compounds or treatments. Examples: 'nausea', 'liver toxicity', 'headache'. Only include measurable negative outcomes, not general descriptors like 'safe' or 'well-tolerated'."
+                        "description": f"Adverse events, complications, or safety-related side effects attributed to the {synonym}, either alone or in combination with other treatments, reported after the study period. Focus on post-intervention or follow-up outcomes (e.g., nausea, fatigue, headache, relapse). Include only measurable negative effects, not descriptors such as 'safe' or 'well-tolerated'."
                     },
                     {
                         "const": "not mentioned",
@@ -590,19 +590,19 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
             "diseases": {
                 "type": "array",
                 "items": {"type": "string"},
-                "description": "Standardized disease names.",
+                "description": "Identify and extract the names of diseases, disorders, or medical conditions explicitly studied or investigated in the abstract. Use standardized names where possible e.g., 'Type 2 Diabetes Mellitus' instead of 'diabetes'.",
                 "default":[]
             },
             "symptoms": {
                 "type": "array",
                 "items": {"type": "string"},
-                "description": "Standardized symptoms studied.",
+                "description": "Symptoms, signs, or effects observed and reported during the study or intervention period, exclude pre-existing symptoms and post-study effects.",
                 "default":[]
             },
             "keywords": {
             "type": "array",
             "items": {"type": "string"},
-            "description": "RAG-optimized keywords extracted from the PubMed abstract, capturing the main biomedical concepts, diseases, genes, proteins, or processes. These keywords are designed to improve semantic retrieval, context-aware search, and accurate document linking in retrieval-augmented generation workflows.",
+            "description": "RAG-optimized keywords extracted from the PubMed abstract, capturing the main biomedical concepts, diseases, genes, proteins, or processes. These keywords are designed to improve semantic retrieval, context-aware search, and accurate document linking in retrieval-augmented generation workflows. If no keywords are provided, infer 5–10 concise scientific/medical terms from the title and abstract (e.g., diseases, biomarkers, pathways, interventions), and exclude generic words or misspellings.",
             "minItems": 5,
             },
             "location": {

@@ -1,0 +1,4241 @@
+[
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 12805340,
+    "pubmed_type": "Clinical Trial, Randomized Controlled Trial",
+    "metadata": {
+      "duration_days": 14,
+      "sample_size": 313,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "patients undergoing radiotherapy",
+      "study_type": [
+        "double-blind trial",
+        "randomized controlled trial"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cedarwood",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "pure essential oils of lavender, bergamot, and cedarwood administered by inhalation"
+        }
+      ],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "anxiety"
+      ],
+      "biomarkers": [],
+      "functions": [
+        "mood"
+      ],
+      "purpose": "to determine whether the inhalation of aromatherapy during radiotherapy reduces anxiety.",
+      "conclusion": "aromatherapy, as administered in this study, is not beneficial.",
+      "outcomes": [
+        {
+          "name": "anxiety",
+          "domain": "condition",
+          "type": "primary",
+          "result": "no effect"
+        },
+        {
+          "name": "mood",
+          "domain": "function",
+          "type": "secondary",
+          "result": "no effect"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "aromatherapy",
+        "radiotherapy",
+        "anxiety",
+        "lavender",
+        "bergamot",
+        "cedarwood",
+        "hospital anxiety and depression scale",
+        "somatic and psychological health report",
+        "double-blind randomized trial"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2003,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12805340/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 15080642,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cedarwood oil",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to investigate the extraction of cedarwood oil using liquid carbon dioxide and compare it to supercritical fluid extraction.",
+      "conclusion": "the extraction rate of cedarwood oil was highest under supercritical extraction conditions, and the chemical composition varied with temperature and pressure, affecting the cedrol/cedrene ratio.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "cedarwood oil",
+        "extraction",
+        "liquid carbon dioxide",
+        "supercritical fluid",
+        "chemical composition",
+        "cedrol",
+        "cedrene",
+        "juniperus virginianna",
+        "subcritical water",
+        "extraction pressure"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "dehydration of cedrol to cedrene"
+      ],
+      "published_year": 2004,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15080642/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 17191830,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to explore the synthesis and sensory aspects of new molecules derived from cedarwood and turpentine oil for fragrance applications.",
+      "conclusion": "the study highlights the potential of using renewable resources like cedarwood oil to synthesize new molecules with excellent olfactory properties, such as ambrocenide, which can be developed from alpha-cedrene.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "cedarwood oil",
+        "turpentine oil",
+        "fragrance chemistry",
+        "renewable resources",
+        "ambrocenide",
+        "alpha-cedrene",
+        "synthesis",
+        "olfactory properties",
+        "sustainable development",
+        "green chemistry"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2004,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17191830/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 17590010,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to identify odor-active compounds in the spicy fraction of hop essential oil from four different varieties.",
+      "conclusion": "an intense 'woody, cedarwood' odor was determined to be the most potent odorant in three of the four spicy fraction samples, tentatively identified as 14-hydroxy-beta-caryophyllene.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "hop essential oil",
+        "odor-active compounds",
+        "gas chromatography-olfactometry",
+        "charmananalysis",
+        "14-hydroxy-beta-caryophyllene"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2007,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17590010/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 18618805,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to summarize the talk at the rsc/sci conference 'flavours & fragrances 2007' and present new experimental results on woody odorants.",
+      "conclusion": "the study presents new insights into the structure-odor correlation of spirocyclic hydroxy ketone analogs and highlights stereochemical requirements for woody odorants.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "woody odorants",
+        "cedrol",
+        "vetiver",
+        "patchouli",
+        "spirocyclic ring system",
+        "structure-odor correlation",
+        "hydroxy ketone",
+        "georgywood",
+        "stereochemical requirements"
+      ],
+      "location": "united kingdom",
+      "mechanism": [],
+      "published_year": 2008,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18618805/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 22430697,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "microorganisms"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "streptococcus mutans",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "antibacterial activity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cedarwood oil",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "oral infections"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to study the antibacterial activity of nine commercially available essential oils against streptococcus mutans in vitro and to compare the antibacterial activity between each material.",
+      "conclusion": "cinnamon oil showed highest activity against streptococcus mutans followed by lemongrass oil and cedarwood oil. the use of these essential oils against s. mutans can be a viable alternative to other antibacterial agents.",
+      "outcomes": [
+        {
+          "name": "antibacterial activity",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "antimicrobial activity",
+        "essential oils",
+        "streptococcus mutans",
+        "cedarwood oil",
+        "agar well diffusion assay"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2012,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22430697/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 22928313,
+    "pubmed_type": "Evaluation Study, Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "other"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "third instars of cecidomyiid gall midge camptomyia corticalis",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "virginian cedarwood",
+          "daily_dosage": 0.61,
+          "units": "mg/cm3",
+          "original_text": "0.61 and 0.99 mg/cm3"
+        }
+      ],
+      "usage": [
+        "other"
+      ],
+      "conditions": [
+        "not mentioned"
+      ],
+      "biomarkers": [
+        "not mentioned"
+      ],
+      "functions": [
+        "not mentioned"
+      ],
+      "purpose": "to examine the toxicity of 98 plant essential oils against third instars of cecidomyiid gall midge camptomyia corticalis using a vapor-phase mortality bioassay.",
+      "conclusion": "all essential oils were less toxic than dichlorvos, with virginian cedarwood oil having an lc50 between 0.61 and 0.99 mg/cm3, indicating potential as a larvicide for c. corticalis control.",
+      "outcomes": [
+        {
+          "name": "toxicity",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "fumigant toxicity",
+        "plant essential oils",
+        "camptomyia corticalis",
+        "vapor-phase mortality bioassay",
+        "larvicides"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2012,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22928313/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 26910133,
+    "pubmed_type": "Case Reports",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "patient with refractory acne",
+      "study_type": [
+        "case report"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cedarwood oil",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "acne vulgaris"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to describe the use of cedarwood oil as a complementary treatment in refractory acne.",
+      "conclusion": "the addition of cedarwood oil was helpful in controlling acne in a patient with refractory acne.",
+      "outcomes": [
+        {
+          "name": "acne vulgaris",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "acne vulgaris"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "acne vulgaris",
+        "chronic skin disease",
+        "alternative medical therapies",
+        "cedarwood oil",
+        "refractory acne"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2016,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26910133/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 31864359,
+    "pubmed_type": "Systematic Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 62,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "studies on the repellency effects of plants against anopheles mosquitoes",
+      "study_type": [
+        "systematic review"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "repellency"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cedarwood",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "not mentioned"
+      ],
+      "biomarkers": [
+        "not mentioned"
+      ],
+      "functions": [
+        "repellency"
+      ],
+      "purpose": "to assess the effectiveness of plant-based repellents against anopheles mosquitoes",
+      "conclusion": "essential oils and extracts of some plants, including cedarwood, showed good repellency with 8 hours complete repellency against different species of anopheles.",
+      "outcomes": [
+        {
+          "name": "repellency",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "not mentioned"
+      ],
+      "symptoms": [
+        "not mentioned"
+      ],
+      "keywords": [
+        "anopheles",
+        "herb",
+        "plant",
+        "repellency",
+        "repellent",
+        "systematic review"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "not mentioned"
+      ],
+      "published_year": 2019,
+      "neuraci_type": "Systematic Review & Meta Analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31864359/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 32439404,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "antimicrobial activity",
+        "anti-inflammatory activity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "juniperus communis",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        },
+        {
+          "ingredient": "juniperus horizontalis",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        },
+        {
+          "ingredient": "juniperus chinensis",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "biomarkers": [
+        "tumour necrosis factor alpha",
+        "interleukin 1beta",
+        "gamma interferon"
+      ],
+      "functions": [
+        "antimicrobial",
+        "anti-inflammatory"
+      ],
+      "purpose": "to investigate the inter-specific variability effect on the biological activities of each oil.",
+      "conclusion": "the tested oils possessed good antibacterial activities against e.coli and s. aureus justifying its folk use as a topical antiseptic while the observed anti-inflammatory effects in human wbcs is due at least in part to their inhibitory effect on the production of pro-inflammatory cytokines.",
+      "outcomes": [
+        {
+          "name": "antimicrobial",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "anti-inflammatory",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "tumour necrosis factor alpha",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "interleukin 1beta",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "gamma interferon",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "antibacterial",
+        "j. chinensis",
+        "j. horizontalis",
+        "juniperus communis",
+        "lps-stimulated wbcs"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "inhibition of pro-inflammatory cytokines"
+      ],
+      "published_year": 2020,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32439404/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 38794141,
+    "pubmed_type": "Scoping Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "patients with inflammatory skin conditions such as acne vulgaris, dermatitis, eczema, psoriasis, and rosacea",
+      "study_type": [
+        "randomized controlled trial",
+        "non-randomized trial",
+        "other"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cedarwood oil",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "cedarwood (cedrus libani) oil"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "acne vulgaris",
+        "dermatitis",
+        "eczema",
+        "psoriasis",
+        "rosacea"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to generate a broad overview of the essential oils used to treat inflammatory skin conditions in a clinical setting",
+      "conclusion": "the uncontrolled studies indicated the potential efficacy of cedarwood (cedrus libani) oil in the treatment of acne, but further research is required to reach conclusive evidence.",
+      "outcomes": [
+        {
+          "name": "acne vulgaris",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "dermatitis",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "eczema",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "psoriasis",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "rosacea",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "acne vulgaris",
+        "dermatitis",
+        "eczema",
+        "psoriasis",
+        "rosacea"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "acne vulgaris",
+        "dermatitis",
+        "eczema",
+        "psoriasis",
+        "rosacea",
+        "essential oils",
+        "cedarwood oil",
+        "clinical studies",
+        "efficacy",
+        "safety"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2024,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38794141/"
+    }
+  },
+  {
+    "root_name": "Cedarwood",
+    "synonyms": [
+      "Cedarwood",
+      "cedar wood",
+      "cedar oil",
+      "cedarwood oil",
+      "cedar fragrance",
+      "cedar leaf oil",
+      "Cedrus",
+      "Cedrus deodara",
+      "Cedrus atlantica",
+      "Cedrus libani"
+    ],
+    "PMID": 9828867,
+    "pubmed_type": "Clinical Trial, Randomized Controlled Trial",
+    "metadata": {
+      "duration_days": 210,
+      "sample_size": 86,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "patients with alopecia areata",
+      "study_type": [
+        "randomized controlled trial",
+        "double-blind trial"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "treatment for alopecia areata"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "cedarwood",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "massaged essential oils (thyme, rosemary, lavender, and cedarwood) in a mixture of carrier oils (jojoba and grapeseed) into their scalp daily"
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "alopecia areata"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to investigate the efficacy of aromatherapy in the treatment of patients with alopecia areata.",
+      "conclusion": "the results show aromatherapy to be a safe and effective treatment for alopecia areata. treatment with these essential oils was significantly more effective than treatment with the carrier oil alone (p = .008 for the primary outcome measure).",
+      "outcomes": [
+        {
+          "name": "alopecia areata",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "alopecia areata"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "aromatherapy",
+        "alopecia areata",
+        "essential oils",
+        "cedarwood",
+        "randomized controlled trial"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 1998,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9828867/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10028544,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": 90,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "streptozotocin diabetic rats",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "xanthine oxidase inhibition",
+        "cataractogenesis prevention"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus deglupta",
+          "daily_dosage": 0,
+          "units": "not mentioned",
+          "original_text": "ad libitum for three months"
+        }
+      ],
+      "usage": [
+        "ingestion"
+      ],
+      "conditions": [
+        "cataractogenesis",
+        "gout"
+      ],
+      "biomarkers": [
+        "xanthine oxidase"
+      ],
+      "functions": [],
+      "purpose": "to search for xanthine oxidase inhibitors in natural products obtained from plants collected in puerto rico and to assess the influence of these extracts in the prevention of cataractogenesis.",
+      "conclusion": "eucalyptus deglupta presented the best finding for cataractogenesis prevention, while syzygium malaccense demonstrated the greatest xanthine oxidase inhibitory activity.",
+      "outcomes": [
+        {
+          "name": "cataractogenesis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "xanthine oxidase",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "gout"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "xanthine oxidase inhibition",
+        "cataractogenesis prevention",
+        "eucalyptus deglupta",
+        "syzygium malaccense",
+        "diabetic rats"
+      ],
+      "location": "puerto rico",
+      "mechanism": [],
+      "published_year": 1998,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10028544/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10036160,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "wood samples from two eucalyptus species of various ages and colors",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "proportion of cell types"
+      ],
+      "functions": [],
+      "purpose": "to examine the feasibility of using fourier transform raman spectroscopy for rapid determination of proportion of cell types in native wood.",
+      "conclusion": "fourier transform raman spectroscopy, combined with second derivative transformation and partial least-squares regression, provides highly significant correlations with microscopically measured values for determining cell type proportions in eucalyptus wood.",
+      "outcomes": [
+        {
+          "name": "proportion of cell types",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "fourier transform raman spectroscopy",
+        "cell types",
+        "eucalyptus",
+        "wood structure",
+        "environmental stresses"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 1999,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10036160/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10081402,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "children with acute maxillary sinusitis, exacerbation of chronic purulent maxillary sinusitis and peritonsillar abscess",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "antiinflammatory effect"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalymine",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "acute maxillary sinusitis",
+        "chronic purulent maxillary sinusitis",
+        "peritonsillar abscess"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to evaluate the antiinflammatory effect of eucalymine in children with acute inflammatory ent diseases",
+      "conclusion": "eucalymine shows a good antiinflammatory effect and can be used as a treatment of choice in children with ent diseases.",
+      "outcomes": [
+        {
+          "name": "acute maxillary sinusitis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "chronic purulent maxillary sinusitis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "peritonsillar abscess",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "sinusitis",
+        "peritonsillar abscess"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "eucalymine",
+        "acute maxillary sinusitis",
+        "chronic purulent maxillary sinusitis",
+        "peritonsillar abscess",
+        "antiinflammatory effect"
+      ],
+      "location": "russia",
+      "mechanism": [],
+      "published_year": 1998,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10081402/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10334585,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to measure the penetration of solar erythemal ultraviolet radiation in the shade of a gum (eucalyptus sp.) and a she oak (casaurina) tree.",
+      "conclusion": "the denser foliage of the she oak provided higher ultraviolet protection compared to that of the gum tree.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "solar erythemal uv radiation",
+        "eucalyptus sp.",
+        "casaurina",
+        "ultraviolet protection",
+        "shade ratios"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 1999,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10334585/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10353206,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "aids patients",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "cryptococcus neoformans infection"
+      ],
+      "biomarkers": [
+        "cd4+ t cell counts"
+      ],
+      "functions": [
+        "immune response"
+      ],
+      "purpose": "to update on human defenses against cryptococcus neoformans, focusing on immune responses and susceptibility in aids patients.",
+      "conclusion": "susceptibility of aids patients to cryptococcus neoformans is associated with low cd4+ t cell counts and likely reduced efficacy of the second line of defense.",
+      "outcomes": [
+        {
+          "name": "cryptococcus neoformans infection",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        },
+        {
+          "name": "cd4+ t cell counts",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "immune response",
+          "domain": "function",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "cryptococcosis"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "cryptococcus neoformans",
+        "aids",
+        "alveolar macrophages",
+        "inflammatory response",
+        "cd4+ t cells"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 1998,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10353206/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10399193,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "microorganisms"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "various bacteria",
+      "study_type": [
+        "comparative study"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "antibacterial activity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus oil",
+          "daily_dosage": 0.25,
+          "units": "%",
+          "original_text": "MIC values of 0.25%"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "antibacterial resistance"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare the antibacterial activity of australian tea tree oil with various other essential myrtaceous oils including eucalyptus oil.",
+      "conclusion": "eucalyptus oil was tested for antibacterial activity against various bacteria using a broth microdilution method, but pseudomonas aeruginosa was resistant to all essential oils tested, even at the highest concentration of 4%.",
+      "outcomes": [
+        {
+          "name": "antibacterial resistance",
+          "domain": "condition",
+          "type": "primary",
+          "result": "no effect"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "antibacterial activity",
+        "essential oils",
+        "eucalyptus oil",
+        "broth microdilution method",
+        "pseudomonas aeruginosa"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 1999,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10399193/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10460442,
+    "pubmed_type": "Case Reports",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 3,
+      "sample_gender": [
+        "male",
+        "female"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "healthy patients",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "seizures"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "absorption of several of these oils for therapeutic purposes"
+        }
+      ],
+      "usage": [
+        "ingestion"
+      ],
+      "conditions": [
+        "epilepsy"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to report cases of seizures related to the absorption of plant-derived essential oils, including eucalyptus, for therapeutic purposes.",
+      "conclusion": "the study reports three cases of seizures related to the absorption of plant-derived essential oils, including eucalyptus, highlighting the potential for these oils to cause toxic seizures.",
+      "outcomes": [
+        {
+          "name": "epilepsy",
+          "domain": "condition",
+          "type": "primary",
+          "result": "worsened"
+        }
+      ],
+      "diseases": [
+        "epilepsy"
+      ],
+      "symptoms": [
+        "seizures"
+      ],
+      "keywords": [
+        "eucalyptus",
+        "essential oils",
+        "seizures",
+        "epileptogenic properties",
+        "monoterpene ketones"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "epileptogenic properties",
+        "monoterpene ketones"
+      ],
+      "published_year": 1999,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10460442/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10512669,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants",
+        "microorganisms"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "eucalyptus pilularis and pisolithus tinctorius ectomycorrhizas",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "phosphorus",
+        "potassium",
+        "sulfur",
+        "chlorine"
+      ],
+      "functions": [],
+      "purpose": "to analyze the distribution of polyphosphate in fungal vacuoles of ectomycorrhizas between pisolithus tinctorius and eucalyptus pilularis.",
+      "conclusion": "polyphosphate is present in the vacuoles of the fungal cells of these ectomycorrhizas in a dispersed form, not in granules.",
+      "outcomes": [
+        {
+          "name": "phosphorus",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "potassium",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "sulfur",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "chlorine",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "ectomycorrhizas",
+        "pisolithus tinctorius",
+        "eucalyptus pilularis",
+        "polyphosphate",
+        "fungal vacuoles"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 1999,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10512669/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10657767,
+    "pubmed_type": "Clinical Trial",
+    "metadata": {
+      "duration_days": 14,
+      "sample_size": 50,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vitro",
+        "in vivo"
+      ],
+      "population": "patients with superficial fungal infections diagnosed as tinea pedis, tinea corporis, or tinea cruris",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "antifungal activity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus pauciflora oil",
+          "daily_dosage": 1.0,
+          "units": "microl/ml",
+          "original_text": "1.0 microl/ml"
+        },
+        {
+          "ingredient": "bsht ointment",
+          "daily_dosage": 1.0,
+          "units": "% v/v",
+          "original_text": "1% v/v"
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "tinea pedis",
+        "tinea corporis",
+        "tinea cruris"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to investigate the antifungal activity of eucalyptus pauciflora oil against superficial fungal infections",
+      "conclusion": "the eucalyptus pauciflora oil showed strong antifungal activity in vitro and was effective in treating superficial fungal infections in patients, with 60% recovering completely and 40% showing significant improvement.",
+      "outcomes": [
+        {
+          "name": "tinea pedis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "tinea corporis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "tinea cruris",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "tinea pedis",
+        "tinea corporis",
+        "tinea cruris"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "eucalyptus pauciflora",
+        "antifungal activity",
+        "superficial fungal infections",
+        "tinea pedis",
+        "tinea corporis",
+        "tinea cruris",
+        "bsht ointment",
+        "in vitro",
+        "in vivo",
+        "keratinized tissues"
+      ],
+      "location": "india",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10657767/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10661715,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": 10,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "common brushtail possums",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus terpenes",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "a diet containing a mixture of terpenes found in eucalyptus leaves"
+        }
+      ],
+      "usage": [
+        "ingestion"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "cytochrome p450 content",
+        "aminopyrine demethylase activity",
+        "aniline hydroxylase activity",
+        "androstenedione 16alpha-hydroxylase activity"
+      ],
+      "functions": [],
+      "purpose": "to study the induction of xenobiotic metabolising enzymes in the common brushtail possum by eucalyptus terpenes.",
+      "conclusion": "dietary terpenes cause enzyme induction in folivorous marsupials, confirming the importance of diet knowledge when studying xenobiotic metabolising enzymes in wild animals like the brushtail possum.",
+      "outcomes": [
+        {
+          "name": "cytochrome p450 content",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "aminopyrine demethylase activity",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "aniline hydroxylase activity",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "androstenedione 16alpha-hydroxylase activity",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "xenobiotic metabolising enzymes",
+        "common brushtail possum",
+        "eucalyptus terpenes",
+        "cytochrome p450",
+        "enzyme induction"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 1999,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10661715/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10777040,
+    "pubmed_type": "Clinical Trial",
+    "metadata": {
+      "duration_days": 28,
+      "sample_size": 542,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "dairy herd with endometritis",
+      "study_type": [
+        "randomized controlled trial"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus compositum",
+          "daily_dosage": 125,
+          "units": "ml",
+          "original_text": "125 ml of a 20 per cent eucalyptus compositum solution"
+        }
+      ],
+      "usage": [
+        "other"
+      ],
+      "conditions": [
+        "endometritis"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare three management programmes for improving reproductive performance in a dairy herd with endometritis.",
+      "conclusion": "management programmes based on the strategic use of PGF2alpha are an effective alternative to traditional programmes based on rectal palpations and intrauterine infusions to control endometritis at a herd level.",
+      "outcomes": [
+        {
+          "name": "endometritis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "endometritis"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "endometritis",
+        "dairy herd",
+        "reproductive performance",
+        "eucalyptus compositum",
+        "prostaglandin F2alpha"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10777040/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 10869686,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "factorial design"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to study the influence of various extraction parameters on the yield and qualitative composition of lipids extracted from eucalyptus globulus wood using supercritical carbon dioxide modified with methanol.",
+      "conclusion": "the qualitative and quantitative results obtained by supercritical carbon dioxide extraction and soxhlet extraction with acetone were in good agreement.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "supercritical carbon dioxide extraction",
+        "lipids",
+        "eucalyptus globulus",
+        "wood extractives",
+        "gas chromatography-mass spectrometry"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10869686/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11069498,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients with dermatological conditions using herbal treatments",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "photosensitization"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "dermatological conditions"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to address the adverse effects of herbal drugs in dermatology in a semisystematic fashion",
+      "conclusion": "adverse effects of herbal medicines are an important albeit neglected subject in dermatology, which deserves further systematic investigation.",
+      "outcomes": [
+        {
+          "name": "dermatological conditions",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "herbal treatments",
+        "dermatological conditions",
+        "adverse events",
+        "allergic reactions",
+        "photosensitization",
+        "chinese herbal creams",
+        "corticosteroids",
+        "ayurvedic remedies",
+        "arsenic",
+        "mercury",
+        "skin lesions",
+        "st john's wort",
+        "kava",
+        "aloe vera",
+        "eucalyptus",
+        "camphor",
+        "henna",
+        "yohimbine",
+        "systemic adverse effects",
+        "atopic eczema"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11069498/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11098627,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans",
+        "animals"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "humans and warm-blooded animals with cryptococcosis",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "cryptococcosis"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to investigate the etiological agents of cryptococcosis and their environmental sources",
+      "conclusion": "cryptococcus neoformans, particularly variety gattii, is associated with eucalyptus trees and causes cryptococcosis in humans and animals, with a geographical distribution in tropical and subtropical regions.",
+      "outcomes": [
+        {
+          "name": "cryptococcosis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "cryptococcosis"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "cryptococcus neoformans",
+        "cryptococcosis",
+        "eucalyptus trees",
+        "zoonoses",
+        "sapronosis"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11098627/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11142301,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "eucalyptus grandis hill ex maiden stand in brazil",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare the efficiency of different trap types for ambrosia beetles in eucalyptus stands in brazil.",
+      "conclusion": "the esalq-84 trap was the most efficient in trapping hypothenemus eruditus and hypothenemus obscurus, while the slot trap caught more of the three most economically important scolytid species in eucalypt plantations in brazil.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "ambrosia beetles",
+        "eucalyptus plantations",
+        "trap efficiency",
+        "scolytidae",
+        "integrated pest management"
+      ],
+      "location": "brazil",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11142301/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11190248,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to highlight the global cultivation and uses of eucalyptus, including timber, fuel, essential oil, and cut foliage.",
+      "conclusion": "eucalyptus is a widely cultivated tree, covering ten million hectares worldwide, and is valued for its timber, fuel, essential oil, and cut foliage.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "eucalyptus",
+        "timber",
+        "fuel",
+        "essential oil",
+        "cut foliage"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11190248/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11246507,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "common brushtail possum and koala",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "1,8-cineole",
+          "daily_dosage": 0.015,
+          "units": "mm",
+          "original_text": "ki 15 microm"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "tolbutamide hydroxylase activity"
+      ],
+      "functions": [],
+      "purpose": "to investigate tolbutamide hydroxylase as a probe substrate reaction in koala and brushtail possum liver microsomes and examine inhibition by eucalyptus terpenes.",
+      "conclusion": "1,8-cineole was found to be a competitive inhibitor for the enzyme responsible for tolbutamide hydroxylation in the possum, while in koala liver microsomes, stimulation of tolbutamide hydroxylase activity was observed with increased cineole concentrations.",
+      "outcomes": [
+        {
+          "name": "tolbutamide hydroxylase activity",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "mixed"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "tolbutamide hydroxylase",
+        "eucalyptus terpenes",
+        "1,8-cineole",
+        "koala",
+        "brushtail possum"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11246507/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11303907,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 15,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "koalas (phascolarctos cinereus) including 5 pouched young and 10 adults",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "ingestion"
+      ],
+      "conditions": [
+        "growth",
+        "physiological demands of adulthood"
+      ],
+      "biomarkers": [
+        "body composition",
+        "limb segment and muscle mass",
+        "post-cranial skeletal characters"
+      ],
+      "functions": [
+        "growth of body",
+        "growth of brain",
+        "growth of musculature"
+      ],
+      "purpose": "to analyze the anatomy and development of koalas from an evolutionary perspective on the superfamily vombatoidea.",
+      "conclusion": "musculoskeletal structures correlated with sitting and climbing; the growth of the young and the physiological demands of adulthood correlated with the low-quality diet of eucalyptus foliage.",
+      "outcomes": [
+        {
+          "name": "growth",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "physiological demands of adulthood",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "body composition",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "limb segment and muscle mass",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "post-cranial skeletal characters",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "growth of body",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "growth of brain",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "growth of musculature",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "koala",
+        "phascolarctos cinereus",
+        "vombatoidea",
+        "musculoskeletal structures",
+        "eucalyptus foliage",
+        "growth",
+        "body composition",
+        "limb segment",
+        "muscle mass",
+        "post-cranial skeletal characters"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2001,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11303907/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11349381,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": 5,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "biological oxygen demand"
+      ],
+      "functions": [],
+      "purpose": "to compare two instruments for measuring rates of leaf decay using biological oxygen demand.",
+      "conclusion": "decay measurements obtained by both instruments were nearly identical for casuarina cunninghamiana and eucalyptus polyanthemos, indicating the feasibility of using both instruments for comparable measurements of leaf decay rates.",
+      "outcomes": [
+        {
+          "name": "biological oxygen demand",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "leaf decay",
+        "biological oxygen demand",
+        "dissolved oxygen probe",
+        "manometer",
+        "eucalyptus polyanthemos"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2001,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11349381/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11368600,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus camaldulensis oil",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        },
+        {
+          "ingredient": "eucalyptus radiata oil",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare the major components of eucalyptus camaldulensis oils obtained by hydrodistillation and supercritical carbon dioxide extraction.",
+      "conclusion": "the oil obtained by hydrodistillation showed high concentrations of 1,8-cineole, alpha-pinene, beta-pinene, p-cymene, terpinen-4-ol, and globulol, while supercritical carbon dioxide extraction resulted in lower amounts of these components but higher amounts of allo-aromadendrene and globulol.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "eucalyptus camaldulensis",
+        "hydrodistillation",
+        "supercritical carbon dioxide extraction",
+        "1,8-cineole",
+        "alpha-pinene"
+      ],
+      "location": "mozambique",
+      "mechanism": [],
+      "published_year": 2001,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11368600/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11695850,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans",
+        "animals"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "1,8-cineole inhibited 1,4-cineole 2-hydroxylation catalysed by human liver microsomes"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "1,4-cineole 2-hydroxylation",
+        "testosterone 6beta-hydroxylation"
+      ],
+      "functions": [],
+      "purpose": "to study the oxidation of 1,4-cineole by rat and human liver microsomes and recombinant cytochrome p450 enzymes.",
+      "conclusion": "1,4-cineole and 1,8-cineole are converted to 2-hydroxylated products by cyp3a enzymes in rat and human liver microsomes.",
+      "outcomes": [
+        {
+          "name": "1,4-cineole 2-hydroxylation",
+          "domain": "biomarker",
+          "type": "not reported",
+          "result": "not reported"
+        },
+        {
+          "name": "testosterone 6beta-hydroxylation",
+          "domain": "biomarker",
+          "type": "not reported",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "cytochrome p450",
+        "1,4-cineole",
+        "2-hydroxylation",
+        "cyp3a4",
+        "liver microsomes"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "2-hydroxylation by cyp3a enzymes"
+      ],
+      "published_year": 2001,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11695850/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11710343,
+    "pubmed_type": "Case Reports",
+    "metadata": {
+      "duration_days": 730,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "energy crops including salix viminalis and eucalyptus nitens",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to investigate the spatial root distribution of energy crops in response to dairy farm pond effluent irrigation.",
+      "conclusion": "spatial root distribution was influenced by effluent rate, with greater quantities of both fine and coarse roots in the top soil horizons with the higher effluent rate of 300 m3 ha(-1) compared to 150 m3 ha(-1).",
+      "outcomes": [
+        {
+          "name": "spatial root distribution",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "root growth",
+        "salix viminalis",
+        "eucalyptus nitens",
+        "dairy farm pond effluent",
+        "irrigation"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11710343/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11789884,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "vibrational spectroscopic marker bands"
+      ],
+      "functions": [],
+      "purpose": "to compare the raman spectra of dragon's blood resins from different botanical sources and identify key vibrational spectroscopic marker bands for identification purposes.",
+      "conclusion": "key vibrational spectroscopic marker bands are identified in the raman spectra of the resins, which are suggested for adoption as a protocol for the identification of the botanical and possible geographical sources of modern dragon's blood resins.",
+      "outcomes": [
+        {
+          "name": "vibrational spectroscopic marker bands",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "raman spectroscopy",
+        "dragon's blood resin",
+        "dracaena cinnabari",
+        "daemonorops draco",
+        "eucalyptus terminalis",
+        "vibrational spectroscopic marker bands",
+        "botanical identification",
+        "geographical sources",
+        "spectra comparison",
+        "resin processing"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2001,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11789884/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 11955821,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to determine the required hlb values of eucalyptus, lippia, and peppermint essential oils using droplet size analysis and turbidimetric method.",
+      "conclusion": "the required hlb values of eucalyptus, lippia, and peppermint oils were determined as 9.8, 12.1, and 12.3, respectively, using droplet size analysis and turbidimetric method.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "hlb values",
+        "eucalyptus oil",
+        "essential oils",
+        "droplet size analysis",
+        "turbidimetric method"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11955821/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12065061,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "brushtail possum, koala, and rat",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "ingestion"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "cuminyl alcohol",
+        "cumic acid"
+      ],
+      "functions": [],
+      "purpose": "to examine the metabolism of p-cymene by liver microsomes from the possum, koala, and rat.",
+      "conclusion": "animals adapted to a diet of eucalyptus leaf have a greater capacity to metabolize dietary terpenes than generalist feeders.",
+      "outcomes": [
+        {
+          "name": "cuminyl alcohol",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "cumic acid",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "p-cymene",
+        "eucalyptus",
+        "brushtail possum",
+        "koala",
+        "rat",
+        "microsomal metabolism",
+        "enzyme kinetics",
+        "cuminyl alcohol",
+        "cumic acid",
+        "terpene diet"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12065061/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12075213,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 12,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "other"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "standardized samples of root canal sealers",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus oil",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "immersed in chloroform or eucalyptus oil for 30 seconds, 1 minute, 2 minutes, 5 minutes, 10 minutes, and 20 minutes"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare the solubility of different root canal sealers in chloroform and eucalyptus oil",
+      "conclusion": "under the conditions of this study, chloroform was a far more effective solvent of root canal sealers than eucalyptus oil.",
+      "outcomes": [
+        {
+          "name": "solubility of root canal sealers",
+          "domain": "function",
+          "type": "primary",
+          "result": "no effect"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "root canal sealers",
+        "chloroform",
+        "eucalyptus oil",
+        "solubility",
+        "epoxy resin",
+        "silicone",
+        "calcium hydroxide",
+        "zinc oxide-eugenol",
+        "glass ionomer",
+        "polyketone"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12075213/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12083351,
+    "pubmed_type": "Evaluation Study, Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "human participants in vaca diez province, bolivian amazon",
+      "study_type": [
+        "other"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "protection against mosquito bites"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus-based repellent",
+          "daily_dosage": 30,
+          "units": "%",
+          "original_text": "eucalyptus-based repellent containing 30% p-menthane-diol"
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "malaria"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to evaluate the efficacy of three plant-based insect repellents against malaria vectors in bolivia.",
+      "conclusion": "the eucalyptus-based repellent containing 30% p-menthane-diol provided 96.89% protection against anopheles darlingi for 4 hours, outperforming 15% deet which provided 84.81% protection.",
+      "outcomes": [
+        {
+          "name": "protection against mosquito bites",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "malaria"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "anopheles darlingi",
+        "malaria vector",
+        "eucalyptus-based repellent",
+        "p-menthane-diol",
+        "deet"
+      ],
+      "location": "bolivia",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12083351/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12146756,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "koalas",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "other"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "cryptococcosis"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to understand the dynamics of cryptococcus neoformans var. gattii in australian environments using koalas as natural biological samplers.",
+      "conclusion": "a strong association between healthy koalas and cryptococcus neoformans var. gattii was confirmed, and the organism was isolated from novel sources, including eucalyptus microcorys and e. grandis.",
+      "outcomes": [
+        {
+          "name": "cryptococcosis",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "cryptococcosis"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "cryptococcus neoformans",
+        "koalas",
+        "environmental sources",
+        "nasal colonization",
+        "skin colonization",
+        "eucalyptus microcorys",
+        "eucalyptus grandis",
+        "cryptococcosis",
+        "host-pathogen relationship"
+      ],
+      "location": "australia",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12146756/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12162118,
+    "pubmed_type": "Evaluation Study, Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 5,
+      "sample_gender": [
+        "male",
+        "female"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "adult male and female volunteers",
+      "study_type": [
+        "comparative study"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "eucalyptus",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "natural oil formulations (containing citronella, clover, eucalyptus, geranium, lavender, peppermint, sandalwood, thyme, etc.)"
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "mosquito repellent"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare the repellent activity of natural oil formulations and a synthetic chemical repellent against aedes aegypti.",
+      "conclusion": "natural oil products, including those containing eucalyptus, showed poor or no repellency against aedes aegypti, with protection times less than or equal to 1 hour. only the synthetic repellent based on kbr 3023 provided satisfactory defense to human volunteers.",
+      "outcomes": [
+        {
+          "name": "mosquito repellent",
+          "domain": "condition",
+          "type": "primary",
+          "result": "no effect"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "aedes aegypti",
+        "mosquito repellent",
+        "natural oil formulations",
+        "synthetic chemical repellent",
+        "kbr 3023"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12162118/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12365495,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": 1095,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "eucalyptus short rotation forest species irrigated with meatworks effluent compared with no irrigation",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "biomass accumulation",
+        "nutrient accumulation"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "biomass",
+        "nutrients",
+        "n",
+        "p",
+        "k",
+        "ca",
+        "mg",
+        "mn"
+      ],
+      "functions": [],
+      "purpose": "to measure biomass and nutrient accumulation in eucalyptus short rotation energy forests in new zealand",
+      "conclusion": "eucalyptus globulus had the highest biomass and nutrient accumulation, with effluent irrigation increasing the accumulation of biomass, n, p, k, and mn, but reducing the leaf area index and leaf biomass, and decreasing the accumulation of ca and mg.",
+      "outcomes": [
+        {
+          "name": "biomass",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "nutrients",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "n",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "p",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "k",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "ca",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "worsened"
+        },
+        {
+          "name": "mg",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "worsened"
+        },
+        {
+          "name": "mn",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "biomass production",
+        "nutrient cycling",
+        "eucalyptus",
+        "short rotation energy forests",
+        "new zealand"
+      ],
+      "location": "new zealand",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12365495/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12369625,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "other"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "cinnamyl alcohol dehydrogenase",
+        "lignin",
+        "vascular expression pattern",
+        "phenylpropanoid pathway"
+      ],
+      "functions": [],
+      "purpose": "to demonstrate that the vascular expression pattern conferred by the eucalyptus gunnii egcad2 promoter is conserved among woody and herbaceous plant species.",
+      "conclusion": "the mechanisms controlling developmental and wounding inducible expression of the egcad2 promoter are conserved among perennial woody and annual herbaceous plant species.",
+      "outcomes": [
+        {
+          "name": "cinnamyl alcohol dehydrogenase",
+          "domain": "biomarker",
+          "type": "not reported",
+          "result": "not reported"
+        },
+        {
+          "name": "lignin",
+          "domain": "biomarker",
+          "type": "not reported",
+          "result": "not reported"
+        },
+        {
+          "name": "vascular expression pattern",
+          "domain": "biomarker",
+          "type": "not reported",
+          "result": "not reported"
+        },
+        {
+          "name": "phenylpropanoid pathway",
+          "domain": "biomarker",
+          "type": "not reported",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "cinnamyl alcohol dehydrogenase",
+        "egcad2 promoter",
+        "vascular expression",
+        "woody plants",
+        "herbaceous plants",
+        "phenylpropanoid pathway",
+        "myb transcription factor",
+        "wounding inducible expression",
+        "transgenic poplar",
+        "cis-acting element"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "myb transcription factor binding site",
+        "phenylpropanoid metabolism regulation"
+      ],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12369625/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12592445,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "common ringtail (pseudocheirus peregrinus) and common brushtail possums (trichosurus vulpecula)",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to study the effect of tannins and formylated phloroglucinol compounds on the intake of eucalyptus foliage by common ringtail and common brushtail possums.",
+      "conclusion": "brushtail possums showed greater tolerance to formylated phloroglucinol compounds and ate more foliage when coated with polyethylene glycol, while ringtail possums were tolerant of tannins but susceptible to low concentrations of formylated phloroglucinol compounds.",
+      "outcomes": [
+        {
+          "name": "intake of eucalyptus foliage",
+          "domain": "function",
+          "type": "primary",
+          "result": "mixed"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "eucalyptus",
+        "tannins",
+        "formylated phloroglucinol compounds",
+        "common ringtail possum",
+        "common brushtail possum"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2003,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12592445/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12645832,
+    "pubmed_type": "Clinical Trial, Randomized Controlled Trial",
+    "metadata": {
+      "duration_days": 84,
+      "sample_size": 32,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "patients with steroid-dependent bronchial asthma",
+      "study_type": [
+        "double-blind trial",
+        "placebo-controlled trial"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "anti-inflammatory effect"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "1.8-cineol",
+          "daily_dosage": 600,
+          "units": "mg",
+          "original_text": "200 mg 1.8-cineol t. i.d."
+        }
+      ],
+      "usage": [
+        "ingestion"
+      ],
+      "conditions": [
+        "bronchial asthma",
+        "severe asthma"
+      ],
+      "biomarkers": [
+        "arachidonic acid metabolism",
+        "cytokine production"
+      ],
+      "functions": [
+        "airway hypersecretion"
+      ],
+      "purpose": "to evaluate the anti-inflammatory efficacy of 1.8-cineol by determining its prednisolone equivalent potency in patients with severe asthma.",
+      "conclusion": "long-term systemic therapy with 1.8-cineol has a significant steroid-saving effect in steroid-dependent asthma, suggesting an anti-inflammatory activity of the monoterpene 1.8-cineol in asthma.",
+      "outcomes": [
+        {
+          "name": "bronchial asthma",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "arachidonic acid metabolism",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "cytokine production",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "airway hypersecretion",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "asthma"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "1.8-cineol",
+        "eucalyptol",
+        "bronchial asthma",
+        "anti-inflammatory",
+        "steroid-sparing"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "suppressed arachidonic acid metabolism",
+        "inhibition of cytokine production"
+      ],
+      "published_year": 2003,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12645832/"
+    }
+  },
+  {
+    "root_name": "Eucalyptus",
+    "synonyms": [
+      "Eucalyptus",
+      "eucalyptus oil",
+      "eucalyptus leaf oil",
+      "blue gum oil",
+      "Eucalyptus globulus",
+      "Eucalyptus radiata",
+      "Eucalyptus citriodora"
+    ],
+    "PMID": 12672146,
+    "pubmed_type": "Clinical Trial, Randomized Controlled Trial",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "other"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "mosquitoes consisting mainly of mansonia in gambella, western ethiopia",
+      "study_type": [
+        "other"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "repellent activity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "lemon eucalyptus",
+          "daily_dosage": 40,
+          "units": "%",
+          "original_text": "40% solutions in coconut oil"
+        },
+        {
+          "ingredient": "lemon eucalyptus",
+          "daily_dosage": 75,
+          "units": "%",
+          "original_text": "75% solutions in coconut oil"
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "mosquito repellency"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to evaluate the repellent activity of essential oils of lemon eucalyptus and other plant products against mosquito populations in western ethiopia",
+      "conclusion": "the essential oil of lemon eucalyptus showed significant repellent activity at 40% and 75% concentrations, with better performance at 75% compared to pyrethrum and neem.",
+      "outcomes": [
+        {
+          "name": "mosquito repellency",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "repellent activity",
+        "lemon eucalyptus",
+        "mosquitoes",
+        "mansonia",
+        "essential oils"
+      ],
+      "location": "ethiopia",
+      "mechanism": [],
+      "published_year": 2003,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12672146/"
+    }
+  }
+]
