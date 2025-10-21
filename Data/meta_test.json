@@ -4237,5 +4237,4743 @@
       "neuraci_type": "Clinical Trials",
       "url": "https://pubmed.ncbi.nlm.nih.gov/12672146/"
     }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 23608016,
+    "pubmed_type": "Observational Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 1600,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "users of private motor vehicles",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "second-hand smoke exposure"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to estimate the level of exposure of children under the age of 18 to second-hand smoke inside motor vehicles.",
+      "conclusion": "the rate of child exposure to second-hand smoke is very high, indicating a need for campaigns to prevent smoking tobacco inside motor vehicles in the presence of children in spain.",
+      "outcomes": [
+        {
+          "name": "second-hand smoke exposure",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "children",
+        "conductores",
+        "drivers",
+        "fumadores",
+        "humo ambiental del tabaco",
+        "niños",
+        "second hand smoking",
+        "smokers"
+      ],
+      "location": "spain",
+      "mechanism": [],
+      "published_year": 2013,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23608016/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 24576449,
+    "pubmed_type": "Observational Study, Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": 499,
+      "sample_gender": [
+        "male",
+        "female"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients with chronic obstructive pulmonary disease caused by biomass and tobacco smoke",
+      "study_type": [
+        "observational study"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "chronic obstructive pulmonary disease"
+      ],
+      "biomarkers": [
+        "fev1%",
+        "body mass index"
+      ],
+      "functions": [],
+      "purpose": "to determine clinical differences between copd caused by biomass smoke and copd caused by tobacco smoke.",
+      "conclusion": "differences were observed between copd caused by biomass and copd caused by tobacco smoke, although these may be attributed in part to uneven gender distribution between the groups.",
+      "outcomes": [
+        {
+          "name": "chronic obstructive pulmonary disease",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        },
+        {
+          "name": "fev1%",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "body mass index",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "chronic obstructive pulmonary disease"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "biomass",
+        "chronic obstructive pulmonary disease",
+        "comorbidity",
+        "phenotypes",
+        "tobacco"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2014,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24576449/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 24774395,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "individuals at risk of cardiovascular disease",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "cardiovascular disease",
+        "obesity",
+        "hypertension",
+        "diabetes mellitus",
+        "chronic kidney disease"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to review developments in 2013 related to cardiovascular disease prevention, including diet, weight control, physical activity, smoking, genetics, and cardiac rehabilitation.",
+      "conclusion": "the article reviews developments in cardiovascular disease prevention, highlighting the importance of early detection, lifestyle modifications, and pharmacological approaches, with updates on guidelines for hypertension, diabetes mellitus, and chronic kidney disease.",
+      "outcomes": [
+        {
+          "name": "cardiovascular disease",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "obesity",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "hypertension",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "diabetes mellitus",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "chronic kidney disease",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "cardiovascular disease",
+        "obesity",
+        "hypertension",
+        "diabetes mellitus",
+        "chronic kidney disease"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "diabetes mellitus",
+        "physical exercise",
+        "risk factors",
+        "hypertension",
+        "tobacco"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2014,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24774395/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 25201221,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "chronic obstructive pulmonary disease",
+        "emphysema"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to investigate animal models of chronic obstructive pulmonary disease and their ability to represent the disease and its components.",
+      "conclusion": "continuous, long-term exposure to cigarette smoke is considered the main risk factor for chronic obstructive pulmonary disease, and the cigarette smoke exposure model is the most widely used in animal studies.",
+      "outcomes": [
+        {
+          "name": "chronic obstructive pulmonary disease",
+          "domain": "condition",
+          "type": "not reported",
+          "result": "not reported"
+        },
+        {
+          "name": "emphysema",
+          "domain": "condition",
+          "type": "not reported",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "chronic obstructive pulmonary disease",
+        "emphysema"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "animal model",
+        "autoimmune",
+        "chronic obstructive pulmonary disease",
+        "emphysema",
+        "exacerbation",
+        "smoking",
+        "therapeutic assays",
+        "transgenic animals"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2014,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25201221/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 25583549,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "vascular risk",
+        "cardiac rehabilitation",
+        "obesity",
+        "hypertension",
+        "diabetes mellitus",
+        "heart failure"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to review recent updates in vascular risk and cardiac rehabilitation, including diet, exercise, smoking, lipids, hypertension, diabetes mellitus, and cardiac rehabilitation.",
+      "conclusion": "the review highlights the challenges in achieving good risk factor control in various areas such as diet, exercise, smoking, lipids, hypertension, and diabetes mellitus, and emphasizes the need for tailored treatment criteria for elderly patients.",
+      "outcomes": [
+        {
+          "name": "vascular risk",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "cardiac rehabilitation",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "obesity",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "hypertension",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "diabetes mellitus",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "heart failure",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "obesity",
+        "hypertension",
+        "diabetes mellitus",
+        "heart failure"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "diabetes",
+        "physical exercise",
+        "risk factors",
+        "smoking",
+        "hypertension",
+        "update",
+        "tabaco"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2015,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25583549/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 25976949,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "people with a genetic predisposition to multiple sclerosis",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "biomarkers": [
+        "dna methylation"
+      ],
+      "functions": [],
+      "purpose": "to review the effects of environmental risk factors on epigenetic mechanisms in the development of multiple sclerosis",
+      "conclusion": "knowledge of epigenetic modifications involved in the pathogenesis of multiple sclerosis opens a new avenue of research for identification of potential biomarkers and new therapeutic targets.",
+      "outcomes": [
+        {
+          "name": "multiple sclerosis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        },
+        {
+          "name": "dna methylation",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "multiple sclerosis"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "d vitamin",
+        "dna methylation",
+        "epigenetics",
+        "epstein barr virus",
+        "multiple sclerosis",
+        "smoking",
+        "tabaco"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2015,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25976949/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 26051435,
+    "pubmed_type": "Observational Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "male",
+        "female"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "spanish population aged >= 18 years in 2012",
+      "study_type": [
+        "descriptive",
+        "cross-sectional"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "smoking-related conditions"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to estimate the mortality attributable to smoking and its impact on premature mortality in spain in the year 2012",
+      "conclusion": "in 2012, smoking caused 60,456 deaths which accounted for 15.23% of all deaths in spain. trachea-bronchial-lung cancer in men and other cardiopathies in women mostly contributed to this mortality.",
+      "outcomes": [
+        {
+          "name": "smoking-related conditions",
+          "domain": "condition",
+          "type": "primary",
+          "result": "worsened"
+        }
+      ],
+      "diseases": [
+        "trachea-bronchial-lung cancer",
+        "cardiopathies"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "attributable risk",
+        "potential years of life lost",
+        "mortality",
+        "smoking",
+        "tobacco"
+      ],
+      "location": "spain",
+      "mechanism": [],
+      "published_year": 2015,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26051435/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 26272626,
+    "pubmed_type": "Observational Study",
+    "metadata": {
+      "duration_days": 540,
+      "sample_size": 118,
+      "sample_gender": [
+        "male"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients with squamous cell carcinoma",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "squamous cell carcinoma"
+      ],
+      "biomarkers": [
+        "tumor growth rate",
+        "solar elastosis"
+      ],
+      "functions": [],
+      "purpose": "to investigate the characteristics associated with squamous cell carcinoma meeting the high-risk criteria defined by the ajcc for t2 lesions",
+      "conclusion": "advanced age, location in the head and neck region, presence of solar elastosis, high tumor growth rate, and high cumulative smoking exposure were all significantly associated with the presence of scc t2.",
+      "outcomes": [
+        {
+          "name": "squamous cell carcinoma",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        },
+        {
+          "name": "tumor growth rate",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "solar elastosis",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "squamous cell carcinoma"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "squamous cell carcinoma",
+        "high-risk squamous cell carcinoma",
+        "risk factors",
+        "smoking",
+        "tobacco",
+        "tumor growth rate",
+        "solar elastosis",
+        "head and neck region",
+        "advanced age",
+        "pack-years"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2015,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26272626/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 26422688,
+    "pubmed_type": "Meta-Analysis",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "hospital workers in catalonia",
+      "study_type": [
+        "meta-analysis"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to estimate the prevalence of smoking in workers from hospitals within the catalan network for smoke-free hospitals from 2009 to 2012 according to workers' sociodemographic characteristics and the type of hospital.",
+      "conclusion": "the overall prevalence of smoking was 28.1% with physicians having the lowest prevalence at 16.4%. smoking cessation should be promoted among other professional groups.",
+      "outcomes": [
+        {
+          "name": "smoking prevalence",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "consumo de tabaco",
+        "health workers",
+        "hospitales",
+        "hospitals",
+        "meta-analysis",
+        "prevalence",
+        "smoking",
+        "trabajadores hospitalarios"
+      ],
+      "location": "spain",
+      "mechanism": [],
+      "published_year": 2015,
+      "neuraci_type": "Systematic Review & Meta Analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26422688/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 26573501,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients in psychiatric settings",
+      "study_type": [
+        "review"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "nicotine replacement therapy",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "nicotine replacement therapy- nrt"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "psychiatric disorders"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to review the evidence on the implications of smoking bans in mental health care settings.",
+      "conclusion": "evidence shows that smoking has no place in psychiatric hospitals or facilities, and the introduction of smoking bans in psychiatric settings is possible as part of a larger strategy to reduce smoking rates among mental health populations.",
+      "outcomes": [
+        {
+          "name": "psychiatric disorders",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "psychiatric disorders"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "second hand smoking",
+        "ban",
+        "tobacco smoking",
+        "mental health",
+        "regulation"
+      ],
+      "location": "mexico",
+      "mechanism": [],
+      "published_year": 2014,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26573501/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 26874678,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients with hidradenitis suppurativa",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "other"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "hidradenitis suppurativa"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to provide a current and practical overview about hidradenitis suppurativa to optimize healthcare for patients.",
+      "conclusion": "primary care physicians play an important role in the early diagnosis and management of hidradenitis suppurativa.",
+      "outcomes": [],
+      "diseases": [
+        "hidradenitis suppurativa"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "hidradenitis suppurativa",
+        "primary care",
+        "cardiovascular metabolic syndrome",
+        "tobacco smoking"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2016,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26874678/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 26920096,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients with urological disease",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "urological disease"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to present an updated review on the relationship between urological disease and tobacco consumption and the importance of involving urologists in smoking prevention.",
+      "conclusion": "urologists play an essential role in informing patients of the relationship between smoking and urological disease. it is the duty of every urologist to play a more active role in educating patients and promoting smoking cessation.",
+      "outcomes": [],
+      "diseases": [
+        "urological disease"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "tobacco",
+        "urology",
+        "smoking prevention",
+        "urological disease",
+        "smoking cessation"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2016,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26920096/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 27832238,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "smokers and general population",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "smoking cessation"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to discuss the challenges and achievements in smoking control and the role of pulmonologists in treating smokers and supporting anti-smoking policies.",
+      "conclusion": "smoking control policies and treatment resources for smoking cessation have advanced in recent years, showing highly satisfactory results, particularly in brazil, but there is still a long way to go before smoking can be considered a controlled disease from a public health standpoint.",
+      "outcomes": [],
+      "diseases": [
+        "smoking"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "smoking control",
+        "tobacco",
+        "smoking cessation",
+        "public health",
+        "pulmonologists"
+      ],
+      "location": "brazil",
+      "mechanism": [],
+      "published_year": 2016,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27832238/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 27925021,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to highlight the need to shed light on thirdhand smoke and incorporate it into the public health debate.",
+      "conclusion": "thirdhand smoke consists of residual pollutants from cigarette smoke that remain in environments and poses a health risk due to the presence and persistence of toxic compounds, including carcinogenic nitrosamines.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "thirdhand smoke",
+        "tobacco",
+        "residual pollutants",
+        "carcinogenic nitrosamines",
+        "public health"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2016,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27925021/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 28158994,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in silico"
+      ],
+      "population": "individuals from the national longitudinal study of adolescent to adult health",
+      "study_type": [
+        "other"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "smoking behaviors"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare the fit of different binary models for correlated data in tobacco use",
+      "conclusion": "people were less likely to smoke if they had higher income, high school or higher education and were religious, while individuals were more likely to smoke if they had abused drugs or alcohol, spent more time on tv and video games, been arrested, or drank alcohol early in life.",
+      "outcomes": [
+        {
+          "name": "smoking behaviors",
+          "domain": "condition",
+          "type": "primary",
+          "result": "mixed"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "bayes' hierarchical model",
+        "generalized additive models",
+        "generalized linear models",
+        "logistic regression",
+        "overdispersion"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2017,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28158994/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 28483343,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "individuals who smoke marijuana",
+      "study_type": [
+        "review"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "lung disease"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to review the impact of cannabis consumption on the lungs.",
+      "conclusion": "the components of smoke from combustion of marijuana are similar to those produced by the combustion of tobacco, but they differ in terms of psychoactive components and use.",
+      "outcomes": [
+        {
+          "name": "lung disease",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "lung disease"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "cannabis",
+        "marijuana",
+        "marijuana smoking",
+        "smoking",
+        "tobacco",
+        "lung disease",
+        "respiratory tract",
+        "psychoactive components",
+        "combustion",
+        "pulmonologists"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2017,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28483343/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 29150215,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients with glaucoma",
+      "study_type": [
+        "review"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "glaucoma",
+        "normal tension glaucoma",
+        "sleep apnoea",
+        "pregnancy",
+        "nocturnal systemic hypotension"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to establish evidence based guidelines to advise patients on the relationship between habits, diet, certain circumstances, diseases and glaucoma",
+      "conclusion": "the studies on smoking do not clearly demonstrate the relationship between this habit and incidence of glaucoma.",
+      "outcomes": [
+        {
+          "name": "glaucoma",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        },
+        {
+          "name": "normal tension glaucoma",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "sleep apnoea",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "pregnancy",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "nocturnal systemic hypotension",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "glaucoma",
+        "normal tension glaucoma",
+        "sleep apnoea",
+        "nocturnal systemic hypotension"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "diet",
+        "drugs",
+        "pregnancy",
+        "glaucoma",
+        "systemic hypertension",
+        "sleep",
+        "smoking",
+        "supplements",
+        "tabaco"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2017,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29150215/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 29673904,
+    "pubmed_type": "Multicenter Study",
+    "metadata": {
+      "duration_days": 3650,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "spanish adult population",
+      "study_type": [
+        "other"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "cardiovascular disease"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to evaluate the impact of 2 smoking bans on hospitalizations for cardiovascular disease in the spanish adult population.",
+      "conclusion": "in spain, smoking bans failed to significantly reduce hospitalizations for ami, ihd, or cvd among patients ≥ 18 years of age. in the population aged ≥ 65 years, hospital admissions due to these diseases showed significant decreases immediately after the implementation of the comprehensive ban, but these reductions disappeared at the 1-year evaluation.",
+      "outcomes": [
+        {
+          "name": "acute myocardial infarction",
+          "domain": "condition",
+          "type": "primary",
+          "result": "mixed"
+        },
+        {
+          "name": "ischemic heart disease",
+          "domain": "condition",
+          "type": "primary",
+          "result": "mixed"
+        },
+        {
+          "name": "cerebrovascular disease",
+          "domain": "condition",
+          "type": "primary",
+          "result": "mixed"
+        }
+      ],
+      "diseases": [
+        "acute myocardial infarction",
+        "ischemic heart disease",
+        "cerebrovascular disease"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "acute myocardial infarction",
+        "ischemic heart disease",
+        "cerebrovascular diseases",
+        "hospital admissions",
+        "smoking ban"
+      ],
+      "location": "spain",
+      "mechanism": [],
+      "published_year": 2018,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29673904/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 30269779,
+    "pubmed_type": "Case Reports",
+    "metadata": {
+      "duration_days": 210,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "female"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "smokers with smoking-related interstitial fibrosis",
+      "study_type": [
+        "other"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "smoking-related interstitial fibrosis"
+      ],
+      "biomarkers": [
+        "hyaline fibrous thickening of the alveolar septa",
+        "respiratory bronchiolitis",
+        "cysts in the thickness of the interlobar septa"
+      ],
+      "functions": [
+        "not mentioned"
+      ],
+      "purpose": "to present a case of pulmonary interstitial fibrosis with cysts in a smoker and to explore the histopathological features and differential diagnosis of the cysts.",
+      "conclusion": "the absence of an epithelial, vascular or lymphatic endothelial lining of the cysts suggests that the cysts were caused by pulmonary interstitial emphysema.",
+      "outcomes": [
+        {
+          "name": "smoking-related interstitial fibrosis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        },
+        {
+          "name": "hyaline fibrous thickening of the alveolar septa",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "respiratory bronchiolitis",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "cysts in the thickness of the interlobar septa",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "smoking-related interstitial fibrosis"
+      ],
+      "symptoms": [
+        "progressive dyspnea"
+      ],
+      "keywords": [
+        "interstitial emphysema",
+        "interstitial fibrosis",
+        "pulmonary cysts",
+        "smoking",
+        "tobacco"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "pulmonary interstitial emphysema"
+      ],
+      "published_year": 2018,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30269779/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 30270036,
+    "pubmed_type": "Observational Study",
+    "metadata": {
+      "duration_days": 6570,
+      "sample_size": 49,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "children prenatally exposed to toxic substances",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "tobacco",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "prenatally exposed to tobacco"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "prenatal exposure to toxic substances"
+      ],
+      "biomarkers": [
+        "retinal nerve fibre layer",
+        "ganglion cell layer"
+      ],
+      "functions": [
+        "retinal development"
+      ],
+      "purpose": "to assess structural changes in the retina using optical coherence tomography in children prenatally exposed to toxic substances.",
+      "conclusion": "toxic substances during pregnancy interfere in retinal development, with children exposed to tobacco showing the least retinal nerve fibre layer thinning compared to those exposed to alcohol and other drugs of abuse.",
+      "outcomes": [
+        {
+          "name": "retinal nerve fibre layer",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "worsened"
+        },
+        {
+          "name": "ganglion cell layer",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "worsened"
+        },
+        {
+          "name": "retinal development",
+          "domain": "function",
+          "type": "primary",
+          "result": "worsened"
+        }
+      ],
+      "diseases": [
+        "not mentioned"
+      ],
+      "symptoms": [
+        "not mentioned"
+      ],
+      "keywords": [
+        "alcohol",
+        "children",
+        "drugs",
+        "pregnancy",
+        "retina",
+        "tobacco",
+        "optical coherence tomography"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2018,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30270036/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 30591385,
+    "pubmed_type": "Observational Study",
+    "metadata": {
+      "duration_days": 6209,
+      "sample_size": 7103,
+      "sample_gender": [
+        "male",
+        "female"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "leon health area residents, associated with smoking",
+      "study_type": [
+        "observational study"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "tobacco-associated tumours"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to describe the frequency, trend and geographical distribution of the incidence of tobacco-associated tumours in the leon health area, spain.",
+      "conclusion": "tumours associated with tobacco increased in the triennial studied, especially in women. the different geographical distribution can be used as a tool to prevent tobacco consumption in the areas involved.",
+      "outcomes": [
+        {
+          "name": "tobacco-associated tumours",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "tobacco-associated tumours"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "spatial distribution",
+        "geographical distribution",
+        "incidence",
+        "time trends",
+        "tobacco",
+        "tumours"
+      ],
+      "location": "spain",
+      "mechanism": [],
+      "published_year": 2018,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30591385/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 31235270,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "adolescents and young people using electronic cigarettes and partial tobacco combustion devices",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "smoking cessation"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to evaluate the safety and effectiveness of electronic cigarettes and partial tobacco combustion devices as a method of smoking cessation",
+      "conclusion": "the safety of the vapor or fumes inhaled by users of electronic cigarettes and partial tobacco combustion devices cannot be guaranteed, and these devices cannot be recommended for smoking cessation due to contradictory results from clinical trials and meta-analyses.",
+      "outcomes": [
+        {
+          "name": "smoking cessation",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "electronic cigarette",
+        "tobacco",
+        "safety",
+        "effectiveness",
+        "smoking cessation"
+      ],
+      "location": "spain",
+      "mechanism": [],
+      "published_year": 2019,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31235270/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 31842162,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": 4380,
+      "sample_size": 290,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients with crohn's disease undergoing primary ileocolic resection",
+      "study_type": [
+        "other"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "reduced surgical recurrence"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "tobacco",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "smoking cessation"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "crohn's disease"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to assess the effect of smoking cessation on long-term surgical recurrence after primary ileocolic resection for crohn's disease.",
+      "conclusion": "smoking cessation after primary ileocolic resection for crohn's disease may significantly reduce long-term risk of surgical recurrence and is associated with less use of maintenance therapy.",
+      "outcomes": [
+        {
+          "name": "surgical recurrence",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "crohn's disease"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "tobacco smoking",
+        "crohn's disease",
+        "surgical recurrence",
+        "smoking cessation",
+        "ileocolic resection"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2020,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31842162/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 32682515,
+    "pubmed_type": "Case Reports",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "night entertainment venues in santiago, chile",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "particulate matter of less than 2.5um"
+      ],
+      "functions": [],
+      "purpose": "to assess second-hand smoke exposure in night entertainment venues in santiago, chile, and evaluate compliance with the smoke-free law.",
+      "conclusion": "smoking where prohibited by law was observed in 36% of the venues visited, with a median pm2.5 concentration 13 times higher than background concentration on the street.",
+      "outcomes": [
+        {
+          "name": "second-hand smoke exposure",
+          "domain": "condition",
+          "type": "primary",
+          "result": "worsened"
+        },
+        {
+          "name": "particulate matter of less than 2.5um",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "worsened"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "tobacco smoke pollution",
+        "second-hand smoke",
+        "smoke-free legislation",
+        "passive smoking",
+        "hospitality sector"
+      ],
+      "location": "chile",
+      "mechanism": [],
+      "published_year": 2020,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32682515/"
+    }
+  },
+  {
+    "root_name": "Tabaco",
+    "synonyms": [
+      "Tobacco",
+      "tobacco leaf",
+      "tobacco extract",
+      "Nicotiana",
+      "Nicotiana tabacum",
+      "Nicotiana rustica"
+    ],
+    "PMID": 33060030,
+    "pubmed_type": "Case Reports",
+    "metadata": {
+      "duration_days": 4018,
+      "sample_size": 83455,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "patients with a new diagnosis of rheumatoid arthritis",
+      "study_type": [
+        "case-control study"
+      ],
+      "focus": "none",
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "tobacco",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "smoking was classified by primary care staff into never, ex- or current smoking"
+        }
+      ],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to study the association between smoking and the development of rheumatoid arthritis in the general population of catalonia, spain",
+      "conclusion": "our findings confirm an association between smoking and the risk of developing rheumatoid arthritis. the effect seems to prevail in the long-term and even in ex-smokers for 2 or more years after smoking cessation.",
+      "outcomes": [
+        {
+          "name": "rheumatoid arthritis",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "rheumatoid arthritis",
+        "smoking",
+        "risk factor",
+        "epidemiology",
+        "environment",
+        "tabaco",
+        "factores de riesgo",
+        "medio ambiente",
+        "artritis reumatoide"
+      ],
+      "location": "spain",
+      "mechanism": [],
+      "published_year": 2020,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33060030/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 10519099,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram",
+          "daily_dosage": 0.4,
+          "units": "g",
+          "original_text": "0.4 g"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare continuous subcritical water extraction and hydrodistillation for extracting essential oil from marjoram leaves.",
+      "conclusion": "the cswe method is quicker, provides a more valuable essential oil with higher amounts of oxygenated compounds and no significant presence of terpenes, and allows substantial savings of costs in terms of energy and plant material.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "continuous subcritical water extraction",
+        "hydrodistillation",
+        "marjoram essential oil",
+        "oxygenated compounds",
+        "gas chromatography-flame ionization detection"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 1999,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10519099/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 10960901,
+    "pubmed_type": "Clinical Trial, Randomized Controlled Trial",
+    "metadata": {
+      "duration_days": 56,
+      "sample_size": 8,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "children with atopic eczema born to professional working mothers",
+      "study_type": [
+        "randomized controlled trial"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "possible allergic contact dermatitis provoked by the essential oils"
+      ],
+      "safety_side_effects": [
+        "deterioration in the eczematous condition"
+      ],
+      "interventions": [
+        {
+          "ingredient": "sweet marjoram",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "chosen by the mothers for their child, from 36 commonly used aromatherapy oils, were: sweet marjoram, frankinsence, german chamomile, myrrh, thyme, benzoin, spike lavender and litsea cubeba"
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "childhood atopic eczema"
+      ],
+      "biomarkers": [],
+      "functions": [
+        "irritation",
+        "sleep disturbance"
+      ],
+      "purpose": "to test the hypothesis that massage with essential oils would help alleviate symptoms of childhood atopic eczema",
+      "conclusion": "there is evidence that tactile contact between mother and child benefits the symptoms of atopic eczema but there is no proof that adding essential oils is more beneficial than massage alone.",
+      "outcomes": [
+        {
+          "name": "childhood atopic eczema",
+          "domain": "condition",
+          "type": "primary",
+          "result": "mixed"
+        },
+        {
+          "name": "irritation",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "sleep disturbance",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "atopic eczema"
+      ],
+      "symptoms": [
+        "irritation",
+        "sleep disturbance"
+      ],
+      "keywords": [
+        "childhood atopic eczema",
+        "essential oils",
+        "aromatherapy",
+        "massage",
+        "allergic contact dermatitis"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2000,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10960901/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 11929287,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "other"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "origanum majorana",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "chlorophylls",
+        "carotenoids"
+      ],
+      "functions": [],
+      "purpose": "to map the effects of extraction pressure and temperature on the yield of coloring materials from origanum majorana using supercritical carbon dioxide.",
+      "conclusion": "similar amounts of carotenoids and 40% of chlorophylls and their derivatives were recovered from the supercritical fluid extraction compared to the ethanol soxhlet extraction.",
+      "outcomes": [
+        {
+          "name": "chlorophylls",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "carotenoids",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "origanum majorana",
+        "supercritical carbon dioxide",
+        "pigment extraction",
+        "chlorophylls",
+        "carotenoids"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11929287/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 12406584,
+    "pubmed_type": "Evaluation Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "flavours extracted from thyme, marjoram and rosemary"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to study the effects of commercially available flavours of spices on the formation of phip in a model system.",
+      "conclusion": "all tested products, independent of their pro- or antioxidative properties, increased phip in the model system.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "phip",
+        "heterocyclic aromatic amines",
+        "mutagens",
+        "spices",
+        "marjoram",
+        "thyme",
+        "rosemary",
+        "oxidative properties",
+        "rancimat method",
+        "model system"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2002,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12406584/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 15373716,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to provide a brief overview of some important herbs in the turkish flora and their potential health benefits.",
+      "conclusion": "studies on these herbs, including marjoram, have revealed that they contain powerful active components that might be effective for increasing human health and preventing cancer.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "herbs",
+        "turkish flora",
+        "active components",
+        "health benefits",
+        "cancer prevention"
+      ],
+      "location": "turkey",
+      "mechanism": [],
+      "published_year": 2004,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15373716/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 16190647,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "female"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "adult females of the german cockroach, blattella germanica l.",
+      "study_type": [
+        "other"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram oil",
+          "daily_dosage": 38.28,
+          "units": "mg/l",
+          "original_text": "38.28 mg/l of air"
+        }
+      ],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to examine the toxicity of marjoram oil and related monoterpenoids against adult females of the german cockroach, blattella germanica l.",
+      "conclusion": "marjoram oil and the monoterpenoids described merit further study as potential fumigants or leads for the control of b. germanica.",
+      "outcomes": [
+        {
+          "name": "toxicity",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "marjoram oil",
+        "monoterpenoids",
+        "blattella germanica",
+        "vapor phase toxicity",
+        "fumigants"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "structure-activity relationships"
+      ],
+      "published_year": 2005,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16190647/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 17221240,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to compare different extraction methods for determining essential oils and related compounds from aromatic plants and optimize solid-phase microextraction/gas chromatography.",
+      "conclusion": "solid-phase microextraction was the most sparing to sensitive components and the most time-saving method for the rapid determination of aroma compounds composition in marjoram, caraway, sage, and thyme.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "essential oils",
+        "extraction methods",
+        "solid-phase microextraction",
+        "gas chromatography",
+        "aromatic plants"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2007,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17221240/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 18069068,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "human platelets",
+      "study_type": [
+        "other"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "inhibition of platelet adhesion",
+        "inhibition of platelet aggregation",
+        "inhibition of protein secretion"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "origanum majorana",
+          "daily_dosage": 200,
+          "units": "microg/ml",
+          "original_text": "200 microg/mL"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "cardiovascular diseases",
+        "thrombosis"
+      ],
+      "biomarkers": [
+        "platelet adhesion",
+        "platelet aggregation",
+        "protein secretion"
+      ],
+      "functions": [],
+      "purpose": "to investigate and compare the inhibitory effects of methanol extracts of three herb species on platelet adhesion, aggregation, and secretion.",
+      "conclusion": "the methanol extract of origanum majorana at a concentration of 200 microg/ml inhibited platelet adhesion to laminin-coated wells by 40%, supporting its traditional use in treating cardiovascular diseases and thrombosis.",
+      "outcomes": [
+        {
+          "name": "platelet adhesion",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "platelet aggregation",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "protein secretion",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "cardiovascular diseases",
+        "thrombosis"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "platelet hyperactivity",
+        "thrombosis",
+        "cardiovascular diseases",
+        "methanol extracts",
+        "platelet adhesion"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2007,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18069068/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 19292466,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "microorganisms"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "insecticide-susceptible and pyrethroid/malathion-resistant pediculus humanus capitis",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "ovicidal activity",
+        "adulticidal activity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "origanum majorana essential oil",
+          "daily_dosage": 0.25,
+          "units": "mg/cm2",
+          "original_text": "0.25 mg/cm(2)"
+        },
+        {
+          "ingredient": "linalool",
+          "daily_dosage": 0.25,
+          "units": "mg/cm2",
+          "original_text": "0.25 mg/cm(2)"
+        },
+        {
+          "ingredient": "(-)-terpinen-4-ol",
+          "daily_dosage": 0.25,
+          "units": "mg/cm2",
+          "original_text": "0.25 mg/cm(2)"
+        },
+        {
+          "ingredient": "alpha-terpineol",
+          "daily_dosage": 0.5,
+          "units": "mg/cm2",
+          "original_text": "0.5 mg/cm(2)"
+        }
+      ],
+      "usage": [
+        "other"
+      ],
+      "conditions": [
+        "insecticide resistance"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to examine the toxicity of origanum majorana essential oil constituents against insecticide-susceptible and resistant pediculus humanus capitis.",
+      "conclusion": "certain monoterpenoids from origanum majorana essential oil, particularly linalool, (-)-terpinen-4-ol, and alpha-terpineol, merit further study as potential pediculicides and ovicides for the control of insecticide-resistant pediculus humanus capitis populations as fumigants with contact action.",
+      "outcomes": [
+        {
+          "name": "ovicidal activity",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "adulticidal activity",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "origanum majorana",
+        "essential oil",
+        "pediculus humanus capitis",
+        "insecticide resistance",
+        "monoterpenoids"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2009,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19292466/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 19609883,
+    "pubmed_type": "Validation Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "other"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "origanum majorana",
+          "daily_dosage": 0.33,
+          "units": "mg/ml",
+          "original_text": "linearity in the range 0.33-500 mg/ml"
+        },
+        {
+          "ingredient": "arctostaphylos uva-ursi",
+          "daily_dosage": 0.33,
+          "units": "mg/ml",
+          "original_text": "linearity in the range 0.33-500 mg/ml"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to develop an alternative gas chromatographic method for the separation and quantification of arbutin in origanum majorana and arctostaphylos uva-ursi extracts.",
+      "conclusion": "the established gc method was rapid, selective, and demonstrated that arbutin could be screened alternatively by gas chromatography.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "arbutin",
+        "gas chromatography",
+        "origanum majorana",
+        "arctostaphylos uva-ursi",
+        "quantification"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2009,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19609883/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 20050524,
+    "pubmed_type": "Validation Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to develop and validate a gc-fid method for determining ethanol content in marjoram ointment.",
+      "conclusion": "the gc-fid method is suitable for determining and identifying ethanol residue in marjoram ointment for routine standardization assays.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "gc-fid method",
+        "ethanol residue",
+        "marjoram ointment",
+        "method validation",
+        "pharmaceutical standardization"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2009,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20050524/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 21535518,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "linalool",
+        "thymol"
+      ],
+      "functions": [],
+      "purpose": "to determine the main odorants of marjoram and thyme in spices and microencapsulated powders using spme.",
+      "conclusion": "the study identified the best powders in terms of quality by determining total and surface contents of compounds and percentage dependencies between encapsulated and surface aroma.",
+      "outcomes": [
+        {
+          "name": "linalool",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not reported"
+        },
+        {
+          "name": "thymol",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "marjoram",
+        "thyme",
+        "linalool",
+        "thymol",
+        "spme",
+        "microencapsulation",
+        "odorants",
+        "decontamination"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2010,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21535518/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 21882685,
+    "pubmed_type": "Evaluation Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "microorganisms"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "fumigant toxicity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram",
+          "daily_dosage": 5.13,
+          "units": "microl/liter air",
+          "original_text": "5.13 microl liter(-1) air"
+        }
+      ],
+      "usage": [
+        "inhalation"
+      ],
+      "conditions": [
+        "not mentioned"
+      ],
+      "biomarkers": [
+        "mortality",
+        "longevity",
+        "lc50",
+        "lc99"
+      ],
+      "functions": [
+        "not mentioned"
+      ],
+      "purpose": "to analyze the chemical composition and fumigant toxicity of essential oils against ephestia kuehniella.",
+      "conclusion": "marjoram and lemon oils were the most effective essential oils tested, with significant fumigant toxicity against ephestia kuehniella.",
+      "outcomes": [
+        {
+          "name": "mortality",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "longevity",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "worsened"
+        },
+        {
+          "name": "lc50",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "lc99",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "essential oils",
+        "fumigant toxicity",
+        "ephestia kuehniella",
+        "marjoram",
+        "lc50",
+        "lc99",
+        "mortality",
+        "longevity",
+        "aromatic plants",
+        "stored product pests"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2011,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21882685/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 22172207,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": 30,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "animals"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "albino rats treated with cyclophosphamide",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "immunostimulant",
+        "reduced genotoxicity"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "egyptian sweet marjoram leaf powder",
+          "daily_dosage": 50,
+          "units": "mg/kg",
+          "original_text": "50 mg/kg body weight, given orally for 30 consecutive days"
+        },
+        {
+          "ingredient": "egyptian sweet marjoram leaf powder",
+          "daily_dosage": 100,
+          "units": "mg/kg",
+          "original_text": "100 mg/kg body weight, given orally for 30 consecutive days"
+        }
+      ],
+      "usage": [
+        "ingestion"
+      ],
+      "conditions": [
+        "genotoxicity",
+        "immunosuppression",
+        "complications induced by cyclophosphamide"
+      ],
+      "biomarkers": [
+        "chromosomal aberrations",
+        "serum malondialdehyde level",
+        "serum ig level",
+        "mitotic index of bone marrow cells"
+      ],
+      "functions": [
+        "hypersensitivity response",
+        "weights and cellularity of lymphoid organs",
+        "myelosuppression",
+        "leucopenia",
+        "macrocytic normochromic anaemia",
+        "thrombocytopenia"
+      ],
+      "purpose": "to evaluate the efficacy of egyptian sweet marjoram leaves in alleviating genotoxicity, immunosuppression, and other complications induced by cyclophosphamide in albino rats.",
+      "conclusion": "sweet marjoram leaves, especially in the form of a herbal tea, may be useful as an immunostimulant and in reducing genotoxicity in patients under chemotherapeutic interventions.",
+      "outcomes": [
+        {
+          "name": "genotoxicity",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "immunosuppression",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "complications induced by cyclophosphamide",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "chromosomal aberrations",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "serum malondialdehyde level",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "serum ig level",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "mitotic index of bone marrow cells",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "hypersensitivity response",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "weights and cellularity of lymphoid organs",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "myelosuppression",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "leucopenia",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "macrocytic normochromic anaemia",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "thrombocytopenia",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "genotoxicity",
+        "immunosuppression"
+      ],
+      "symptoms": [
+        "chromosomal aberrations",
+        "serum malondialdehyde level",
+        "serum ig level",
+        "mitotic index of bone marrow cells",
+        "hypersensitivity response",
+        "weights and cellularity of lymphoid organs",
+        "myelosuppression",
+        "leucopenia",
+        "macrocytic normochromic anaemia",
+        "thrombocytopenia"
+      ],
+      "keywords": [
+        "cyclophosphamide",
+        "alkylating anticancer drugs",
+        "genotoxicity",
+        "immunosuppression",
+        "albino rats",
+        "marjoram leaf powder",
+        "marjoram leaf aqueous extract",
+        "chromosomal aberrations",
+        "serum malondialdehyde",
+        "serum ig",
+        "hypersensitivity response",
+        "lymphoid organs",
+        "myelosuppression",
+        "leucopenia",
+        "macrocytic normochromic anaemia",
+        "thrombocytopenia",
+        "antioxidant system",
+        "mitotic index"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "reactivating antioxidant system",
+        "increasing mitotic index"
+      ],
+      "published_year": 2011,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22172207/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 22435409,
+    "pubmed_type": "Randomized Controlled Trial",
+    "metadata": {
+      "duration_days": 28,
+      "sample_size": 48,
+      "sample_gender": [
+        "female"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "outpatients with primary dysmenorrhea",
+      "study_type": [
+        "randomized controlled trial",
+        "double-blind trial"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "pain relief"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram",
+          "daily_dosage": 3,
+          "units": "%",
+          "original_text": "essential oils blended with lavender (lavandula officinalis), clary sage (salvia sclarea) and marjoram (origanum majorana) in a 2:1:1 ratio was diluted in unscented cream at 3% concentration for the essential oil group."
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "primary dysmenorrhea"
+      ],
+      "biomarkers": [],
+      "functions": [
+        "pain"
+      ],
+      "purpose": "to assess the effectiveness of blended essential oils on menstrual cramps for outpatients with primary dysmenorrhea and explore the analgesic ingredients in the essential oils.",
+      "conclusion": "aromatic oil massage provided relief for outpatients with primary dysmenorrhea and reduced the duration of menstrual pain in the essential oil group.",
+      "outcomes": [
+        {
+          "name": "primary dysmenorrhea",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "pain",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "primary dysmenorrhea"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "primary dysmenorrhea",
+        "essential oils",
+        "aromatherapy",
+        "pain relief",
+        "analgesic components"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "analgesic"
+      ],
+      "published_year": 2012,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22435409/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 22595519,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to provide a comprehensive and updated discussion of the developments and applications of sfe in the isolation of essential oils from plant matrices.",
+      "conclusion": "a comparison of the extraction yield and composition of the essential oil of several plants and herbs from lamiaceae family, including marjoram, is presented and discussed.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "supercritical fluid extraction",
+        "essential oil",
+        "plants",
+        "herbs",
+        "lamiaceae family",
+        "marjoram",
+        "extraction yield",
+        "composition",
+        "supercritical co2",
+        "cosolvent"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2012,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22595519/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 22750822,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": 20,
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "origanum majorana",
+          "daily_dosage": 100,
+          "units": "mmol l⁻¹",
+          "original_text": "nacl 100 mmol l⁻¹"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [
+        "essential oil yield",
+        "terpinen-4-ol",
+        "trans-sabinene hydrate",
+        "cis-sabinene hydrate",
+        "eicosane",
+        "spathulenol",
+        "eugenol",
+        "phenol"
+      ],
+      "functions": [],
+      "purpose": "to investigate the essential oil composition of origanum majorana under different culture conditions and salt effects.",
+      "conclusion": "the hydroponic medium offered higher essential oil yield than the greenhouse, with significant yield increase under saline constraint. major volatile components varied between conditions, with new compounds appearing in the presence of nacl.",
+      "outcomes": [
+        {
+          "name": "essential oil yield",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "terpinen-4-ol",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "trans-sabinene hydrate",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "mixed"
+        },
+        {
+          "name": "cis-sabinene hydrate",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "mixed"
+        },
+        {
+          "name": "eicosane",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "spathulenol",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "eugenol",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "phenol",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "origanum majorana",
+        "essential oil composition",
+        "hydroponic medium",
+        "greenhouse",
+        "nacl",
+        "terpinen-4-ol",
+        "trans-sabinene hydrate",
+        "cis-sabinene hydrate",
+        "eicosane",
+        "spathulenol",
+        "eugenol",
+        "phenol"
+      ],
+      "location": "tunisia",
+      "mechanism": [],
+      "published_year": 2012,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22750822/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 22928313,
+    "pubmed_type": "Comparative Study, Evaluation Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "other"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "third instars of cecidomyiid gall midge camptomyia corticalis",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "sweet marjoram",
+          "daily_dosage": 0.61,
+          "units": "mg/cm3",
+          "original_text": "0.61 and 0.99 mg/cm3"
+        }
+      ],
+      "usage": [
+        "other"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to examine the toxicity of 98 plant essential oils against third instars of cecidomyiid gall midge camptomyia corticalis using a vapor-phase mortality bioassay.",
+      "conclusion": "all essential oils, including sweet marjoram, were less toxic than the conventional insecticide dichlorvos, with lc50 values between 0.61 and 0.99 mg/cm3.",
+      "outcomes": [],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "essential oils",
+        "camptomyia corticalis",
+        "fumigant toxicity",
+        "larvicides",
+        "vapor-phase mortality bioassay"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2012,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22928313/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 23034115,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "antioxidant activity",
+        "protecting health effects"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "cardiovascular diseases",
+        "inflammation disorders",
+        "cancer"
+      ],
+      "biomarkers": [
+        "antioxidant capacity"
+      ],
+      "functions": [],
+      "purpose": "to explore the antioxidant activity and health effects of common medicinal plants.",
+      "conclusion": "medicinal plants, including marjoram, are valuable for their antioxidant activity and health-protecting effects, utilized in various industries due to their active chemical substances.",
+      "outcomes": [
+        {
+          "name": "cardiovascular diseases",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "inflammation disorders",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "cancer",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "antioxidant capacity",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "cardiovascular diseases",
+        "inflammation disorders",
+        "cancer"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "antioxidant activity",
+        "medicinal plants",
+        "lamiaceae",
+        "phenolic compounds",
+        "antimicrobial constituents"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2012,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23034115/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 24881464,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro",
+        "in silico"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "type 2 diabetes mellitus"
+      ],
+      "biomarkers": [
+        "dipeptidyl peptidase iv",
+        "protein tyrosine phosphatase 1b"
+      ],
+      "functions": [
+        "insulin secretion",
+        "insulin signaling"
+      ],
+      "purpose": "to characterize and examine extracts from herbs for their ability to inhibit dipeptidyl peptidase iv and protein tyrosine phosphatase 1b.",
+      "conclusion": "greenhouse rosemary, mexican oregano, and marjoram extracts were the best inhibitors of dpp-iv, while commercial rosemary, mexican oregano, and marjoram were the best inhibitors of ptp1b.",
+      "outcomes": [
+        {
+          "name": "type 2 diabetes mellitus",
+          "domain": "condition",
+          "type": "primary",
+          "result": "not reported"
+        },
+        {
+          "name": "dipeptidyl peptidase iv",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "protein tyrosine phosphatase 1b",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "insulin secretion",
+          "domain": "function",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "insulin signaling",
+          "domain": "function",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "type 2 diabetes mellitus"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "dpp-iv",
+        "ptp1b",
+        "hispidulin",
+        "marjoram",
+        "oregano",
+        "rosemary",
+        "type 2 diabetes mellitus"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2014,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24881464/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 25192562,
+    "pubmed_type": "Randomized Controlled Trial",
+    "metadata": {
+      "duration_days": 28,
+      "sample_size": 60,
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "participants with a history of neck pain and neck disability index score >10%",
+      "study_type": [
+        "randomized controlled trial"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "improved pain tolerance",
+        "improved neck-joint range"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram",
+          "daily_dosage": 60,
+          "units": "mg",
+          "original_text": "3% concentration cream composed of four essential oils: marjoram, black pepper, lavender, and peppermint. For the control group, only an unscented cream was provided. For 4 weeks, all patients applied 2 g cream directly to the affected area daily after showering or bathing."
+        }
+      ],
+      "usage": [
+        "topical"
+      ],
+      "conditions": [
+        "neck pain"
+      ],
+      "biomarkers": [
+        "pressure pain threshold",
+        "neck-joint range"
+      ],
+      "functions": [
+        "pain tolerance"
+      ],
+      "purpose": "to assess the efficacy of aromatic essential oils on neck pain",
+      "conclusion": "the essential oil cream developed in this study can be used to improve neck pain, with the experimental group showing better results than the control group.",
+      "outcomes": [
+        {
+          "name": "neck pain",
+          "domain": "condition",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "pressure pain threshold",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "neck-joint range",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "improved"
+        },
+        {
+          "name": "pain tolerance",
+          "domain": "function",
+          "type": "secondary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [
+        "neck pain"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "essential oils",
+        "neck pain",
+        "randomized controlled trial",
+        "pressure pain threshold",
+        "neck-joint range"
+      ],
+      "location": "taiwan",
+      "mechanism": [],
+      "published_year": 2014,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25192562/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 25662759,
+    "pubmed_type": "Randomized Controlled Trial",
+    "metadata": {
+      "duration_days": 30,
+      "sample_size": 25,
+      "sample_gender": [
+        "female"
+      ],
+      "species": [
+        "humans"
+      ],
+      "experimental_model": [
+        "in vivo"
+      ],
+      "population": "women with polycystic ovary syndrome",
+      "study_type": [
+        "randomized controlled trial",
+        "double-blind trial"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "improve insulin sensitivity",
+        "reduce adrenal androgens"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram",
+          "daily_dosage": 2,
+          "units": "cups",
+          "original_text": "marjoram tea or a placebo tea twice daily"
+        }
+      ],
+      "usage": [
+        "ingestion"
+      ],
+      "conditions": [
+        "polycystic ovary syndrome"
+      ],
+      "biomarkers": [
+        "follicle-stimulating hormone",
+        "luteinising hormone",
+        "progesterone",
+        "oestradiol",
+        "total testosterone",
+        "dehydroepiandrosterone-sulphate",
+        "fasting insulin",
+        "glucose",
+        "homeostasis model assessment for insulin resistance",
+        "glucose to insulin ratio"
+      ],
+      "functions": [],
+      "purpose": "to investigate the effects of marjoram tea on the hormonal profile of women with polycystic ovary syndrome",
+      "conclusion": "marjoram tea significantly reduced dhea-s and fasting insulin levels, showing beneficial effects on the hormonal profile of pcos women by improving insulin sensitivity and reducing adrenal androgens.",
+      "outcomes": [
+        {
+          "name": "follicle-stimulating hormone",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "luteinising hormone",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "progesterone",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "oestradiol",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "total testosterone",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "dehydroepiandrosterone-sulphate",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "fasting insulin",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "glucose",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "homeostasis model assessment for insulin resistance",
+          "domain": "biomarker",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "glucose to insulin ratio",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "polycystic ovary syndrome"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "marjoram tea",
+        "androgens",
+        "insulin resistance",
+        "traditional medicine"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2015,
+      "neuraci_type": "Clinical Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25662759/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 25744566,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "secondary"
+      ],
+      "benefits": [
+        "not mentioned"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "ischemic stroke"
+      ],
+      "biomarkers": [
+        "reactive oxygen species",
+        "blood-brain barrier",
+        "mitochondrial function",
+        "apoptosis"
+      ],
+      "functions": [
+        "neuroprotection"
+      ],
+      "purpose": "to summarize the pharmacologic characteristics of pinocembrin and discuss its mechanisms of action and potential therapeutic applications.",
+      "conclusion": "pinocembrin has shown anti-inflammatory and neuroprotective effects, with potential as a drug to treat ischemic stroke and other clinical conditions.",
+      "outcomes": [
+        {
+          "name": "ischemic stroke",
+          "domain": "condition",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "reactive oxygen species",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "blood-brain barrier",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "mitochondrial function",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "apoptosis",
+          "domain": "biomarker",
+          "type": "secondary",
+          "result": "not reported"
+        },
+        {
+          "name": "neuroprotection",
+          "domain": "function",
+          "type": "secondary",
+          "result": "not reported"
+        }
+      ],
+      "diseases": [
+        "ischemic stroke"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "neuroinflammation",
+        "neuroprotection",
+        "pinocembrin",
+        "stroke",
+        "reactive oxygen species",
+        "blood-brain barrier",
+        "mitochondrial function",
+        "apoptosis"
+      ],
+      "location": "not mentioned",
+      "mechanism": [
+        "anti-inflammatory",
+        "neuroprotective",
+        "reduce reactive oxygen species",
+        "protect blood-brain barrier",
+        "modulate mitochondrial function",
+        "regulate apoptosis"
+      ],
+      "published_year": 2015,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25744566/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 27231340,
+    "pubmed_type": "Review",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "not mentioned"
+      ],
+      "experimental_model": [
+        "not mentioned"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "antioxidant",
+        "hepatoprotective",
+        "cardioprotective",
+        "anti-platelet",
+        "gastroprotective",
+        "antibacterial",
+        "antifungal",
+        "antiprotozoal",
+        "antiatherosclerosis",
+        "anti-inflammatory",
+        "antimetastatic",
+        "antitumor",
+        "antiulcer",
+        "anticholinesterase inhibitory"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [
+        "gastrointestinal disorders",
+        "ocular disorders",
+        "nasopharyngeal disorders",
+        "respiratory disorders",
+        "cardiac disorders",
+        "rheumatologic disorders",
+        "neurological disorders"
+      ],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to summarize comprehensive information concerning traditional uses, phytochemistry, and pharmacological activities of sweet marjoram.",
+      "conclusion": "sweet marjoram has been used for a variety of diseases in traditional and folklore medicines, and a wide range of pharmacological activities have been reported from this plant in modern medicine.",
+      "outcomes": [],
+      "diseases": [
+        "gastrointestinal disorders",
+        "ocular disorders",
+        "nasopharyngeal disorders",
+        "respiratory disorders",
+        "cardiac disorders",
+        "rheumatologic disorders",
+        "neurological disorders"
+      ],
+      "symptoms": [],
+      "keywords": [
+        "majorana hortensis",
+        "origanum majorana",
+        "pharmacology",
+        "phytochemical constituent",
+        "traditional medicine"
+      ],
+      "location": "not mentioned",
+      "mechanism": [],
+      "published_year": 2016,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27231340/"
+    }
+  },
+  {
+    "root_name": "Marjoram",
+    "synonyms": [
+      "Marjoram",
+      "sweet marjoram",
+      "marjoram oil",
+      "Origanum majorana",
+      "Origanum vulgare"
+    ],
+    "PMID": 28375110,
+    "pubmed_type": "Comparative Study",
+    "metadata": {
+      "duration_days": "not mentioned",
+      "sample_size": "not mentioned",
+      "sample_gender": [
+        "not mentioned"
+      ],
+      "species": [
+        "plants"
+      ],
+      "experimental_model": [
+        "in vitro"
+      ],
+      "population": "not mentioned",
+      "study_type": [
+        "not mentioned"
+      ],
+      "focus": [
+        "primary"
+      ],
+      "benefits": [
+        "antibacterial",
+        "antioxidant"
+      ],
+      "synergies_interactions_positive": [
+        "not mentioned"
+      ],
+      "synergies_interactions_negative": [
+        "not mentioned"
+      ],
+      "safety_side_effects": [
+        "not mentioned"
+      ],
+      "interventions": [
+        {
+          "ingredient": "marjoram essential oil",
+          "daily_dosage": 0,
+          "units": "",
+          "original_text": "not mentioned"
+        }
+      ],
+      "usage": [
+        "not mentioned"
+      ],
+      "conditions": [],
+      "biomarkers": [],
+      "functions": [],
+      "purpose": "to assess the chemical content, antibacterial and antioxidant properties of essential oil extract from tunisian origanum majorana l. cultivated under saline condition.",
+      "conclusion": "essential oils of marjoram inhibited the growth of most bacteria, with gram negative bacteria being more sensitive. compared to synthetic antibiotics, marjoram essential oils were more effective against e. coli, l. innocua, and s. enteridis due to their high antioxidant activity.",
+      "outcomes": [
+        {
+          "name": "antibacterial activity",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        },
+        {
+          "name": "antioxidant activity",
+          "domain": "function",
+          "type": "primary",
+          "result": "improved"
+        }
+      ],
+      "diseases": [],
+      "symptoms": [],
+      "keywords": [
+        "origanum majorana",
+        "essential oils",
+        "antibacterial activity",
+        "antioxidant properties",
+        "saline condition"
+      ],
+      "location": "tunisia",
+      "mechanism": [],
+      "published_year": 2016,
+      "neuraci_type": "Observational Studies & Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28375110/"
+    }
   }
 ]

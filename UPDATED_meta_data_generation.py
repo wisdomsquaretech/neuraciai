@@ -531,19 +531,19 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
             "conditions": {
                 "type": "array",
                     "items": {"type": "string"},
-                "description": "Medical conditions, diseases, or health statuses that are the focus of the study population. Include all conditions explicitly mentioned in the title, abstract, or methods section that the study is investigating. If multiple conditions are included, list each one separately.",
+                "description": "Medical conditions, diseases, or health statuses that are the focus of the study population. Include all conditions explicitly mentioned in the title, abstract, or methods section that the study is investigating. If multiple conditions are included, list each one separately. Every item listed here must appear exactly once in 'outcomes' with a matching 'name' and the appropriate 'domain'.",
                 "default": [] 
         },
             "biomarkers": {
                 "type": "array",
                     "items": {"type": "string"},
-                "description": "Physiological, biochemical, or molecular measures that are studied or reported in the trial. Include all relevant markers explicitly mentioned in the title, abstract, or methods section. Examples include blood pressure, heart rate, hormone levels, inflammatory markers, or neurochemical measures.",
+                "description": "Physiological, biochemical, or molecular measures that are studied or reported in the trial. Include all relevant markers explicitly mentioned in the title, abstract, or methods section. Examples include blood pressure, heart rate, hormone levels, inflammatory markers, or neurochemical measures. Every item listed here must appear exactly once in 'outcomes' with a matching 'name' and the appropriate 'domain'.",
                 "default": []
         },
             "functions": {
                 "type": "array",
                     "items": {"type": "string"},
-            "description": "Functional or behavioral domains that are studied or assessed in the trial. Include all domains explicitly mentioned in the title, abstract, or methods section, such as cognition, sleep, mood, memory, attention, pain, or motor function. Return concise keywords for each domain.",
+            "description": "Functional or behavioral domains that are studied or assessed in the trial. Include all domains explicitly mentioned in the title, abstract, or methods section, such as cognition, sleep, mood, memory, attention, pain, or motor function. Return concise keywords for each domain. Every item listed here must appear exactly once in 'outcomes' with a matching 'name' and the appropriate 'domain'.",
             "default": []
         },
             "purpose": {
@@ -583,7 +583,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                             "description": "Reported result direction."
                         }
                     },
-                    "description":"Must include all the values in conditions, biomarkers and functions with name, domain, type, result.",
+                    "description":"Include exactly one outcome for each item in the union of 'conditions', 'biomarkers', and 'functions'; no extras. Use identical 'name' text and set 'domain' to its source ('condition'/'biomarker'/'function'). If unspecified, set 'type' = \"secondary\" and 'result' = \"not reported\".",
                     "required": ["name", "domain", "type", "result"]
                 }
             },
