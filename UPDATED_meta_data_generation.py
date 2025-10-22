@@ -583,7 +583,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                             "description": "Reported result direction."
                         }
                     },
-                    "description":"Include exactly one outcome for each item in the union of 'conditions', 'biomarkers', and 'functions'; no extras. Use identical 'name' text and set 'domain' to its source ('condition'/'biomarker'/'function'). If unspecified, set 'type' = \"secondary\" and 'result' = \"not reported\".",
+                    "description":"Include exactly one outcome for each item in the union of 'conditions', 'biomarkers', and 'functions'; no extras. Use identical 'name' text and set 'domain' to its source ('condition'/'biomarker'/'function'). If unspecified, set 'result' = \"not reported\".",
                     "required": ["name", "domain", "type", "result"]
                 }
             },
