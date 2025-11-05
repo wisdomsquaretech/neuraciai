@@ -7,13 +7,14 @@ import re
 import time
 from dotenv import load_dotenv
 from xml.etree import ElementTree as ET
+load_dotenv()
 
 # Initialize OpenAI client
-load_dotenv()
+
 client = OpenAI(api_key=os.getenv("OPEN_AI_API"))
 
 # Always set your email for Entrez
-Entrez.email = "priyankp@wisdomsquare.net"
+Entrez.email = os.getenv("ENTREZ_EMAIL")
 
 
 # ---- Function to fetch title + abstract ----
@@ -474,7 +475,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                         "properties": {
                         "ingredient": {
                             "type": "string",
-                            "description": "Name of the intervention substance (e.g.,Ashwagandha)."
+                            "description": "Name of the intervention substance (e.g.Ashwagandha)."
                         },
                         "daily_dosage": {
                         "type": "number",
@@ -583,7 +584,7 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
                             "description": "Reported result direction."
                         }
                     },
-                    "description":"Must include all the values in conditions, biomarkers and functions with name, domain, type, result.",
+                    "description":"Include exactly one outcome for each item in the union of 'conditions', 'biomarkers', and 'functions'; no extras. Use identical 'name' text and set 'domain' to its source ('condition'/'biomarker'/'function')",
                     "required": ["name", "domain", "type", "result"]
                 }
             },
@@ -677,7 +678,60 @@ def extract_metadata(synonym, title, abstract, pubmed_type, focus_status):
     return result
 
 
-def process_pmids(root_names, synonyms, pmids, pubmed_types,output_file="pubmed_metadata.json"):
+# def process_pmids(root_names, synonyms, pmids, pubmed_types,output_file="pubmed_metadata.json"):
+#     results = []
+
+#     # Load existing results if file already exists
+#     if os.path.exists(output_file):
+#         with open(output_file, "r") as f:
+#             try:
+#                 results = json.load(f)
+#             except json.JSONDecodeError:
+#                 results = []
+
+#     # Build lookup of already processed PMIDs
+#     done_pmids = {(r.get("PMID"),r.get("root_name")) for r in results}
+
+#     # Process remaining
+#     for root_name ,synonym, pmid, pubmed_type in tqdm(zip(root_names, synonyms, pmids,pubmed_types), total=len(pmids), desc="Processing PMIDs", unit="pmid"):
+#         if (pmid,root_name) in done_pmids:
+#             continue  # Skip already processed
+
+#         try:
+#             paper = fetch_extract_and_abstract(pmid)
+#             #print(pmid)
+#             # checking for no abstracts
+#             if paper['abstract'].strip():
+#                 print("Synonyms",synonym)
+#                 abstract_with_keywords = paper["abstract"] + "\nKeywords: " + ",".join(paper["keywords"])
+#                 text = paper["title"] + "\n" +abstract_with_keywords
+#                 print(text)
+#                 # Set focus_status to TRUE for No Match Abstracts
+#                 match = find_synonyms_in_text(synonym, text)
+#                 focus_status = (match == {} or match == {''} or match == set())
+#                 print(">>>>>>>>>>Focus",focus_status)
+#                 metadata_json = extract_metadata(synonym, paper["title"], abstract_with_keywords, pubmed_type,focus_status)
+#                 result = {"root_name": root_name, "synonyms" : synonym, "PMID": pmid, "pubmed_type": pubmed_type, "metadata": metadata_json}
+#             else:
+#                 print("No abstract:",pmid)
+#                 continue
+#         except Exception as e:
+#             result = {"root_name": root_name,  "synonyms" : synonym, "PMID": pmid, "pubmed_type": pubmed_type,"Error": str(e)}
+
+#         results.append(result)
+
+#         # Save incrementally after each PMID
+#         with open(output_file, "w") as f:
+#             json.dump(results, f, indent=2)
+
+#     return results
+
+import os
+import json
+import time
+from tqdm import tqdm
+
+def process_pmids(root_names, synonyms, pmids, pubmed_types, output_file="pubmed_metadata.json"):
     results = []
 
     # Load existing results if file already exists
@@ -689,38 +743,75 @@ def process_pmids(root_names, synonyms, pmids, pubmed_types,output_file="pubmed_
                 results = []
 
     # Build lookup of already processed PMIDs
-    done_pmids = {(r.get("PMID"),r.get("root_name")) for r in results}
+    done_pmids = {(r.get("PMID"), r.get("root_name")) for r in results}
 
-    # Process remaining
-    for root_name ,synonym, pmid, pubmed_type in tqdm(zip(root_names, synonyms, pmids,pubmed_types), total=len(pmids), desc="Processing PMIDs", unit="pmid"):
-        if (pmid,root_name) in done_pmids:
+    for root_name, synonym, pmid, pubmed_type in tqdm(
+        zip(root_names, synonyms, pmids, pubmed_types),
+        total=len(pmids),
+        desc="Processing PMIDs",
+        unit="pmid"
+    ):
+        key = (pmid, root_name)
+        if key in done_pmids:
             continue  # Skip already processed
 
-        try:
-            paper = fetch_extract_and_abstract(pmid)
-            #print(pmid)
-            # checking for no abstracts
-            if paper['abstract'].strip():
-                print("Synonyms",synonym)
-                abstract_with_keywords = paper["abstract"] + "\nKeywords: " + ",".join(paper["keywords"])
-                text = paper["title"] + "\n" +abstract_with_keywords
-                print(text)
-                # Set focus_status to TRUE for No Match Abstracts
-                match = find_synonyms_in_text(synonym, text)
-                focus_status = (match == {} or match == {''} or match == set())
-                print(">>>>>>>>>>Focus",focus_status)
-                metadata_json = extract_metadata(synonym, paper["title"], abstract_with_keywords, pubmed_type,focus_status)
-                result = {"root_name": root_name, "synonyms" : synonym, "PMID": pmid, "pubmed_type": pubmed_type, "metadata": metadata_json}
-            else:
-                print("No abstract:",pmid)
-                continue
-        except Exception as e:
-            result = {"root_name": root_name,  "synonyms" : synonym, "PMID": pmid, "pubmed_type": pubmed_type,"Error": str(e)}
+        retry_count = 0
+        max_retries = 5
 
-        results.append(result)
+        while retry_count < max_retries:
+            try:
+                paper = fetch_extract_and_abstract(pmid)
 
-        # Save incrementally after each PMID
-        with open(output_file, "w") as f:
-            json.dump(results, f, indent=2)
+                if paper.get('abstract', '').strip():
+                    print("Synonyms:", synonym)
+                    abstract_with_keywords = paper["abstract"] + "\nKeywords: " + ",".join(paper.get("keywords", []))
+                    text = paper["title"] + "\n" + abstract_with_keywords
+                    match = find_synonyms_in_text(synonym, text)
+                    focus_status = (match == {} or match == {''} or match == set())
+
+                    metadata_json = extract_metadata(
+                        synonym, paper["title"], abstract_with_keywords, pubmed_type, focus_status
+                    )
+                    result = {
+                        "root_name": root_name,
+                        "synonyms": synonym,
+                        "PMID": pmid,
+                        "pubmed_type": pubmed_type,
+                        "metadata": metadata_json
+                    }
+                else:
+                    print("No abstract:", pmid)
+                    break  # Skip to next PMID
+
+                results.append(result)
+                done_pmids.add(key)
+
+                # Save incrementally after each PMID
+                with open(output_file, "w") as f:
+                    json.dump(results, f, indent=2)
+
+                break  # ✅ Success, move to next PMID
+
+            except Exception as e:
+                retry_count += 1
+                wait_time = min(60, 2 ** retry_count)
+                print(f"⚠️ Error for PMID {pmid}: {e}")
+                print(f"⏳ Retrying in {wait_time}s (attempt {retry_count}/{max_retries})...")
+                time.sleep(wait_time)
+
+                # If max retries reached, record the failure and continue
+                if retry_count == max_retries:
+                    result = {
+                        "root_name": root_name,
+                        "synonyms": synonym,
+                        "PMID": pmid,
+                        "pubmed_type": pubmed_type,
+                        "Error": str(e)
+                    }
+                    results.append(result)
+                    with open(output_file, "w") as f:
+                        json.dump(results, f, indent=2)
+                    break  # move to next PMID
 
     return results
+
